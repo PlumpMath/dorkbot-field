@@ -109,8 +109,8 @@
           </entry>
         </properties>
         <rect id="29">
-          <x>511.0</x>
-          <y>379.0</y>
+          <x>505.0</x>
+          <y>387.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
@@ -5460,10 +5460,10 @@ _self.python_globals_.declare(_self, &quot;f&quot;)
               <field.core.ui.text.embedded.CustomInsertSystem_-Replace id="931">
                 <from>16</from>
                 <to>17</to>
-                <with>0.22181818</with>
+                <with>0.71636343</with>
                 <was></was>
                 <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="932">
-                  <value>0.22181818</value>
+                  <value>0.71636343</value>
                   <when reference="927"/>
                   <what reference="928"/>
                   <name>Component:55c12843:1428bcfa2ee:-7fd2.transient</name>
@@ -5487,7 +5487,7 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(130.0, -12
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="768"/>
-            <int>20</int>
+            <int>176</int>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="934">
@@ -5517,7 +5517,7 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(130.0, -12
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="771"/>
             <string>R = 0.8145454
 G = 0.8618182
-B = 0.22181818
+B = 0.71636343
 
 
 
@@ -5566,7 +5566,7 @@ draw()
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="943">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3kAAHNxAH4ACEPIAAB1cQB+AAYAAAAGc3EAfgAIQ3kAAHNxAH4ACEPVh+5zcQB+AAhDYw/cc3EAfgAIQ+CAAHNxAH4ACENIAABzcQB+AAhD4IAAdXEAfgAGAAAABnNxAH4ACEMs8CRzcQB+AAhD4IAAc3EAfgAIQxcAAHNxAH4ACEPVh+5zcQB+AAhDFwAAc3EAfgAIQ8gAAHVxAH4ABgAAAAZzcQB+AAhDFwAAc3EAfgAIQ7p4EnNxAH4ACEMs8CRzcQB+AAhDr4AAc3EAfgAIQ0gAAHNxAH4ACEOvgAB1cQB+AAYAAAAGc3EAfgAIQ2MP3HNxAH4ACEOvgABzcQB+AAhDeQAAc3EAfgAIQ7p4EnNxAH4ACEN5AABzcQB+AAhDyAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0/UIYMP1ygHj5jJE5zcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3gAAHNxAH4ACEPIAAB1cQB+AAYAAAAGc3EAfgAIQ3gAAHNxAH4ACEPVQT1zcQB+AAhDYoJ6c3EAfgAIQ+AAAHNxAH4ACENIAABzcQB+AAhD4AAAdXEAfgAGAAAABnNxAH4ACEMtfYZzcQB+AAhD4AAAc3EAfgAIQxgAAHNxAH4ACEPVQT1zcQB+AAhDGAAAc3EAfgAIQ8gAAHVxAH4ABgAAAAZzcQB+AAhDGAAAc3EAfgAIQ7q+w3NxAH4ACEMtfYZzcQB+AAhDsAAAc3EAfgAIQ0gAAHNxAH4ACEOwAAB1cQB+AAYAAAAGc3EAfgAIQ2KCenNxAH4ACEOwAABzcQB+AAhDeAAAc3EAfgAIQ7q+w3NxAH4ACEN4AABzcQB+AAhDyAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0/UIYMP1ygHj83Y5hzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -5603,8 +5603,8 @@ draw()
           </entry>
         </properties>
         <rect id="951">
-          <x>240.0</x>
-          <y>390.0</y>
+          <x>236.0</x>
+          <y>310.0</y>
           <w>200.0</w>
           <h>20.0</h>
         </rect>
