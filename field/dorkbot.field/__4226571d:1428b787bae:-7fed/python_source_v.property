@@ -1,0 +1,10 @@
+string>def start():
+	print "START"
+
+def stop():
+	print "STOP"
+
+def foo():
+	print _t
+
+_r = start, foo, stop
