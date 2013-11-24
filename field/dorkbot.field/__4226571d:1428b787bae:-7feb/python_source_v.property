@@ -1,0 +1,5 @@
+string>f = FLine(filled=1, fillColor=Vector4(0, 0, 0, 0.2))
+f.circle(50, 200, 200)
+
+_self.lines.clear()
+_self.lines.add(f)

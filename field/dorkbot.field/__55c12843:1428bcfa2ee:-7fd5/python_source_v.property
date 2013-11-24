@@ -1,0 +1,15 @@
+string>R = 0.8145454
+G = 0.8618182
+B = 0.22181818
+
+
+
+def draw():
+	f = FLine(filled=1, fillColor=Vector4(R, G, B, 0.2))
+	f.circle(50 * _t, 200, 400)
+
+	_self.lines.clear()
+	_self.lines.add(f)
+
+_r = draw
+draw()

@@ -1,0 +1,6 @@
+string>
+baseTool( node=Direct(0, 4, "n"), coords=(Rel(None, Vector2(79.0, 112.0), None), ) )
+
+baseTool( node=Direct(0, 4, "n"), coords=(Rel(None, Vector2(20.0, -16.0), None), ) )
+
+baseTool( node=Direct(0, 4, "n"), coords=(Rel(None, Vector2(52.0, 3.0), None), ) )
