@@ -29,54 +29,71 @@
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="11">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="12">
               <name>creationToken</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>time</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="12">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="13">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="13">
+            <field.core.windowing.components.PlainDraggableComponent id="14">
               <class>field.core.windowing.components.PlainDraggableComponent</class>
               <visualElement reference="3"/>
             </field.core.windowing.components.PlainDraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="14">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="15">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="15">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="16">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>timeSlider</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="16">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="17">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="17">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="18">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="18">
+            <map id="19">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="19">
-                  <areas id="20"/>
-                  <rootHistogram id="21">
-                    <counts id="22"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="20">
+                  <areas id="21"/>
+                  <rootHistogram id="22">
+                    <counts id="23"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>tweak_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="24">
+                  <areas id="25"/>
+                  <rootHistogram id="26">
+                    <counts id="27"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -84,81 +101,81 @@
             </map>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="23">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="28">
               <name>alignment_doNotParticipate</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
         </properties>
-        <rect id="24">
-          <x>-1.0</x>
-          <y>0.0</y>
+        <rect id="29">
+          <x>414.0</x>
+          <y>299.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
-        <parents id="25"/>
-        <children id="26">
+        <parents id="30"/>
+        <children id="31">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="27">
+      <field.core.dispatch.VisualElement id="32">
         <uid>__438b082f:1428a28af5d:-7fd6</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="28">
+        <properties id="33">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="29">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="34">
               <name>python_undoStack</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.ui.text.StyledTextUndo_-Memo id="30">
-              <changes id="31"/>
-              <redo id="32"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="35">
+              <changes id="36"/>
+              <redo id="37"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="33">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="38">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="34">
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="39">
               <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="27"/>
+              <element reference="32"/>
             </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="35">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="40">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="36"/>
+            <list id="41"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="37">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="42">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="38">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="43">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="39">
+            <field.core.windowing.components.DraggableComponent id="44">
               <class>field.core.windowing.components.DraggableComponent</class>
-              <visualElement reference="27"/>
+              <visualElement reference="32"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="40">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="45">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>a box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="41">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="46">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -183,14 +200,14 @@ _r = start, keepGoing, stop
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="42">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="47">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="43">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="48">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -199,17 +216,17 @@ _self.python_globals_.declare(_self, &quot;keepGoing&quot;)
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="44">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="49">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="45">
+            <map id="50">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="46">
-                  <areas id="47"/>
-                  <rootHistogram id="48">
-                    <counts id="49"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="51">
+                  <areas id="52"/>
+                  <rootHistogram id="53">
+                    <counts id="54"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -217,78 +234,109 @@ _self.python_globals_.declare(_self, &quot;keepGoing&quot;)
             </map>
           </entry>
         </properties>
-        <rect id="50">
-          <x>89.0</x>
-          <y>92.0</y>
+        <rect id="55">
+          <x>699.0</x>
+          <y>82.0</y>
           <w>103.0</w>
           <h>50.0</h>
         </rect>
-        <parents id="51"/>
-        <children id="52">
+        <parents id="56"/>
+        <children id="57">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="53">
+      <field.core.dispatch.VisualElement id="58">
         <uid>__438b082f:1428a28af5d:-7fd4</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="54">
+        <properties id="59">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="29"/>
-            <field.core.ui.text.StyledTextUndo_-Memo id="55">
-              <changes id="56"/>
-              <redo id="57"/>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="34"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="60">
+              <changes id="61">
+                <field.core.ui.text.StyledTextUndo_-Change id="62">
+                  <start>0</start>
+                  <length>0</length>
+                  <replacedBy>
+baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-1.0, 5.0), None), ) )
+</replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>84</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+              </changes>
+              <redo id="63"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="58">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="64">
               <name>shouldAutoComputeRect</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="59">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="65">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride id="60">
+            <field.core.plugins.drawing.SplineComputingOverride id="66">
               <class>field.core.plugins.drawing.SplineComputingOverride</class>
-              <element reference="53"/>
+              <element reference="58"/>
             </field.core.plugins.drawing.SplineComputingOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="61">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="67">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="62"/>
+            <list id="68"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="63">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="69">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="64">
-              <name>localView</name>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="70">
+              <name>tweak_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="65">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="53"/>
-            </field.core.windowing.components.PlainDraggableComponent>
+            <string></string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="66">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="71">
+              <name>__currentlyEditingCaretPosition</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <int>421</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="72">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="67">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="73">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="74">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="58"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="75">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -316,51 +364,44 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="68">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="69">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="77">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="70">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="78">
               <name>noFrame</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <int>1</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="71">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="79">
               <name>lines</name>
               <freezable>true</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="72" serialization="custom">
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="80" serialization="custom">
               <unserializable-parents/>
               <list>
                 <default>
                   <size>1</size>
                 </default>
                 <int>1</int>
-                <field.core.plugins.drawing.opengl.CachedLine id="73">
+                <field.core.plugins.drawing.opengl.CachedLine id="81">
                   <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0ADF0aGlzIGlzIGEgYm94IHdpdGggY29kZSBpbiBpdCwgY2xpY2sgdG8gc2VsZWN0IGl0c3EAfgAUdAAGZm9udF92c3IADWphdmEuYXd0LkZvbnTFoTXmzN5WcwMABkkAGWZvbnRTZXJpYWxpemVkRGF0YVZlcnNpb25GAAlwb2ludFNpemVJAARzaXplSQAFc3R5bGVMABRmUmVxdWVzdGVkQXR0cmlidXRlc3QAFUxqYXZhL3V0aWwvSGFzaHRhYmxlO0wABG5hbWVxAH4AFXhwAAAAAUFwAAAAAAAPAAAAAHB0AAlHaWxsIFNhbnN4eAB4c3EAfgARP0AAAAAAAAx3CAAAABAAAAAEc3EAfgAUdAAQb2Zmc2V0RnJvbVNvdXJjZXNyABlmaWVsZC5tYXRoLmxpbmFsZy5WZWN0b3IyfQ4k0gxu4sQCAAJGAAF4RgABeXhwAAAAAAAAAABzcQB+ABR0ABVjb250YWluc011bHRpbGluZVRleHRzcQB+ABgAAAABc3EAfgAUdAAMdG90YWxPcGFjaXR5c3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHEAfgAJP+AAAAAAAABzcQB+ABR0AA9zaG91bGRIaWdobGlnaHRzcgARamF2YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHAAeAA=</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
                 <default>
-                  <outer-class reference="60"/>
+                  <outer-class reference="66"/>
                 </default>
               </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
             </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="74">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="82">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -368,51 +409,121 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="75">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="83">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="76">
+            <map id="84">
+              <entry>
+                <string>vertexShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="85">
+                  <areas id="86"/>
+                  <rootHistogram id="87">
+                    <counts id="88"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="77">
-                  <areas id="78">
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="79">
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="89">
+                  <areas id="90">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="91">
                       <allocation>0</allocation>
                       <lastSeenAt>3</lastSeenAt>
                       <lineStart>0</lineStart>
                       <lineEnd>6</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="80">
-                        <dictionary id="81"/>
+                      <extend id="92">
+                        <dictionary id="93"/>
                       </extend>
-                      <exec id="82">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="83">
-                          <when id="84">2009-10-14 14:47:38.83 BST</when>
+                      <exec id="94">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="95">
+                          <when id="96">2009-10-14 14:47:38.83 BST</when>
                           <stringAtExecution>from java.awt import Font</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="85">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="97">
                       <allocation>0</allocation>
                       <lastSeenAt>4</lastSeenAt>
                       <lineStart>7</lineStart>
                       <lineEnd>7</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="86">
-                        <dictionary id="87"/>
+                      <extend id="98">
+                        <dictionary id="99"/>
                       </extend>
-                      <exec id="88">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="89">
-                          <when id="90">2009-10-14 14:48:49.833 BST</when>
+                      <exec id="100">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="101">
+                          <when id="102">2009-10-14 14:48:49.833 BST</when>
                           <stringAtExecution>
 _self.lines.clear()</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
                   </areas>
-                  <rootHistogram id="91">
-                    <counts id="92"/>
+                  <rootHistogram id="103">
+                    <counts id="104"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>fragmentShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="105">
+                  <areas id="106"/>
+                  <rootHistogram id="107">
+                    <counts id="108"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>documentation</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="109">
+                  <areas id="110"/>
+                  <rootHistogram id="111">
+                    <counts id="112"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>python_executionScratch_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="113">
+                  <areas id="114"/>
+                  <rootHistogram id="115">
+                    <counts id="116"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>python_autoExec_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="117">
+                  <areas id="118"/>
+                  <rootHistogram id="119">
+                    <counts id="120"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>geometryShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="121">
+                  <areas id="122"/>
+                  <rootHistogram id="123">
+                    <counts id="124"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>tweak_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="125">
+                  <areas id="126"/>
+                  <rootHistogram id="127">
+                    <counts id="128"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -420,57 +531,71 @@ _self.lines.clear()</stringAtExecution>
             </map>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="93">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="129">
               <name>alignment_doNotParticipate</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
         </properties>
-        <rect id="94">
-          <x>132.0</x>
-          <y>62.0</y>
+        <rect id="130">
+          <x>696.0</x>
+          <y>43.0</y>
           <w>50.0</w>
           <h>34.0</h>
         </rect>
-        <parents id="95"/>
-        <children id="96">
+        <parents id="131"/>
+        <children id="132">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="97">
+      <field.core.dispatch.VisualElement id="133">
         <uid>__438b082f:1428a28af5d:-7fd2</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="98">
+        <properties id="134">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="99">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="135">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="100">
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="136">
               <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="97"/>
+              <element reference="133"/>
             </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="101">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="137">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="138"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="139">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="140">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="102">
+            <field.core.windowing.components.DraggableComponent id="141">
               <class>field.core.windowing.components.DraggableComponent</class>
-              <visualElement reference="97"/>
+              <visualElement reference="133"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="103">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="142">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>another box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="104">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="143">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -485,21 +610,14 @@ _r = keepGoing
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="105">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="144">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="106">
-              <name>python_customInsertPersistanceInfo</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="107"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="108">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="145">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -507,24 +625,17 @@ _r = keepGoing
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="109">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="110">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="146">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="111">
+            <map id="147">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="112">
-                  <areas id="113"/>
-                  <rootHistogram id="114">
-                    <counts id="115"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="148">
+                  <areas id="149"/>
+                  <rootHistogram id="150">
+                    <counts id="151"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -532,95 +643,88 @@ _r = keepGoing
             </map>
           </entry>
         </properties>
-        <rect id="116">
-          <x>118.0</x>
-          <y>146.0</y>
+        <rect id="152">
+          <x>728.0</x>
+          <y>136.0</y>
           <w>103.0</w>
           <h>50.0</h>
         </rect>
-        <parents id="117"/>
-        <children id="118">
+        <parents id="153"/>
+        <children id="154">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="119">
+      <field.core.dispatch.VisualElement id="155">
         <uid>__438b082f:1428a28af5d:-7fd0</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="120">
+        <properties id="156">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="121">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="157">
+              <name>python_undoStack</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.ui.text.StyledTextUndo_-Memo id="158">
+              <changes id="159"/>
+              <redo id="160"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="161">
               <name>shouldAutoComputeRect</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="122">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="162">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride id="123">
+            <field.core.plugins.drawing.SplineComputingOverride id="163">
               <class>field.core.plugins.drawing.SplineComputingOverride</class>
-              <element reference="119"/>
+              <element reference="155"/>
             </field.core.plugins.drawing.SplineComputingOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="124">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="164">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="125"/>
+            <list id="165"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="126">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="166">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.ui.text.embedded.TextAnnotations_-Package id="127">
-              <annotations id="128" serialization="custom">
-                <unserializable-parents/>
-                <map>
-                  <default>
-                    <loadFactor>0.75</loadFactor>
-                    <threshold>0</threshold>
-                  </default>
-                  <int>1</int>
-                  <int>1</int>
-                  <field.core.dispatch.iVisualElement_-VisualElementProperty id="129">
-                    <name>python_source_v</name>
-                    <freezable>false</freezable>
-                  </field.core.dispatch.iVisualElement_-VisualElementProperty>
-                  <list id="130"/>
-                </map>
-              </annotations>
-            </field.core.ui.text.embedded.TextAnnotations_-Package>
+            <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="131">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
+            <int>476</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="167">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="168">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="155"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="169">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="132">
-              <name>localView</name>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="170">
+              <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="133">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="119"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="134">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="129"/>
             <string>label= &quot;&quot;&quot;if this begins to look like a time-line then that&apos;s because it is. Only it&apos;s a timeline with code in it.&quot;&quot;&quot;
 width=300
 opacity=0.5
@@ -645,44 +749,28 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="135">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="172">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="136">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="173">
               <name>noFrame</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <int>1</int>
+            <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="137">
-              <name>lines</name>
-              <freezable>true</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="138" serialization="custom">
-              <unserializable-parents/>
-              <list>
-                <default>
-                  <size>1</size>
-                </default>
-                <int>1</int>
-                <field.core.plugins.drawing.opengl.CachedLine id="139">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0AGhpZiB0aGlzIGJlZ2lucyB0byBsb29rIGxpa2UgYSB0aW1lLWxpbmUgdGhlbiB0aGF0J3MgYmVjYXVzZSBpdCBpcy4gT25seSBpdCdzIGEgdGltZWxpbmUgd2l0aCBjb2RlIGluIGl0LnNxAH4AFHQABmZvbnRfdnNyAA1qYXZhLmF3dC5Gb250xaE15szeVnMDAAZJABlmb250U2VyaWFsaXplZERhdGFWZXJzaW9uRgAJcG9pbnRTaXplSQAEc2l6ZUkABXN0eWxlTAAUZlJlcXVlc3RlZEF0dHJpYnV0ZXN0ABVMamF2YS91dGlsL0hhc2h0YWJsZTtMAARuYW1lcQB+ABV4cAAAAAFBcAAAAAAADwAAAABwdAAJR2lsbCBTYW5zeHgAeHNxAH4AET9AAAAAAAAMdwgAAAAQAAAABHNxAH4AFHQAEG9mZnNldEZyb21Tb3VyY2VzcgAZZmllbGQubWF0aC5saW5hbGcuVmVjdG9yMn0OJNIMbuLEAgACRgABeEYAAXl4cAAAAAAAAAAAc3EAfgAUdAAVY29udGFpbnNNdWx0aWxpbmVUZXh0c3EAfgAYAAAAAXNxAH4AFHQADHRvdGFsT3BhY2l0eXNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4ACT/gAAAAAAAAc3EAfgAUdAAPc2hvdWxkSGlnaGxpZ2h0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAHgA</compressedCachedLine>
-                </field.core.plugins.drawing.opengl.CachedLine>
-              </list>
-              <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
-                <default>
-                  <outer-class reference="123"/>
-                </default>
-              </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
-            </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="140">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="174">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -690,51 +778,144 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="141">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="175">
+              <name>lines</name>
+              <freezable>true</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="176" serialization="custom">
+              <unserializable-parents/>
+              <list>
+                <default>
+                  <size>1</size>
+                </default>
+                <int>1</int>
+                <field.core.plugins.drawing.opengl.CachedLine id="177">
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0AGhpZiB0aGlzIGJlZ2lucyB0byBsb29rIGxpa2UgYSB0aW1lLWxpbmUgdGhlbiB0aGF0J3MgYmVjYXVzZSBpdCBpcy4gT25seSBpdCdzIGEgdGltZWxpbmUgd2l0aCBjb2RlIGluIGl0LnNxAH4AFHQABmZvbnRfdnNyAA1qYXZhLmF3dC5Gb250xaE15szeVnMDAAZJABlmb250U2VyaWFsaXplZERhdGFWZXJzaW9uRgAJcG9pbnRTaXplSQAEc2l6ZUkABXN0eWxlTAAUZlJlcXVlc3RlZEF0dHJpYnV0ZXN0ABVMamF2YS91dGlsL0hhc2h0YWJsZTtMAARuYW1lcQB+ABV4cAAAAAFBcAAAAAAADwAAAABwdAAJR2lsbCBTYW5zeHgAeHNxAH4AET9AAAAAAAAMdwgAAAAQAAAABHNxAH4AFHQAEG9mZnNldEZyb21Tb3VyY2VzcgAZZmllbGQubWF0aC5saW5hbGcuVmVjdG9yMn0OJNIMbuLEAgACRgABeEYAAXl4cAAAAAAAAAAAc3EAfgAUdAAVY29udGFpbnNNdWx0aWxpbmVUZXh0c3EAfgAYAAAAAXNxAH4AFHQADHRvdGFsT3BhY2l0eXNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4ACT/gAAAAAAAAc3EAfgAUdAAPc2hvdWxkSGlnaGxpZ2h0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAHgA</compressedCachedLine>
+                </field.core.plugins.drawing.opengl.CachedLine>
+              </list>
+              <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+                <default>
+                  <outer-class reference="163"/>
+                </default>
+              </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+            </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="178">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="142">
+            <map id="179">
+              <entry>
+                <string>vertexShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="180">
+                  <areas id="181"/>
+                  <rootHistogram id="182">
+                    <counts id="183"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="143">
-                  <areas id="144">
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="145">
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="184">
+                  <areas id="185">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="186">
                       <allocation>0</allocation>
                       <lastSeenAt>3</lastSeenAt>
                       <lineStart>0</lineStart>
                       <lineEnd>6</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="146">
-                        <dictionary id="147"/>
+                      <extend id="187">
+                        <dictionary id="188"/>
                       </extend>
-                      <exec id="148">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="149">
-                          <when id="150">2009-10-14 14:47:38.83 BST</when>
+                      <exec id="189">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="190">
+                          <when id="191">2009-10-14 14:47:38.83 BST</when>
                           <stringAtExecution>from java.awt import Font</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="151">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="192">
                       <allocation>0</allocation>
                       <lastSeenAt>4</lastSeenAt>
                       <lineStart>7</lineStart>
                       <lineEnd>7</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="152">
-                        <dictionary id="153"/>
+                      <extend id="193">
+                        <dictionary id="194"/>
                       </extend>
-                      <exec id="154">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="155">
-                          <when id="156">2009-10-14 14:48:49.833 BST</when>
+                      <exec id="195">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="196">
+                          <when id="197">2009-10-14 14:48:49.833 BST</when>
                           <stringAtExecution>
 _self.lines.clear()</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
                   </areas>
-                  <rootHistogram id="157">
-                    <counts id="158"/>
+                  <rootHistogram id="198">
+                    <counts id="199"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>fragmentShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="200">
+                  <areas id="201"/>
+                  <rootHistogram id="202">
+                    <counts id="203"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>documentation</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="204">
+                  <areas id="205"/>
+                  <rootHistogram id="206">
+                    <counts id="207"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>python_executionScratch_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="208">
+                  <areas id="209"/>
+                  <rootHistogram id="210">
+                    <counts id="211"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>python_autoExec_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="212">
+                  <areas id="213"/>
+                  <rootHistogram id="214">
+                    <counts id="215"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>geometryShader_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="216">
+                  <areas id="217"/>
+                  <rootHistogram id="218">
+                    <counts id="219"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>tweak_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="220">
+                  <areas id="221"/>
+                  <rootHistogram id="222">
+                    <counts id="223"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -742,85 +923,85 @@ _self.lines.clear()</stringAtExecution>
             </map>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="159">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="224">
               <name>alignment_doNotParticipate</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
         </properties>
-        <rect id="160">
-          <x>275.0</x>
-          <y>187.0</y>
+        <rect id="225">
+          <x>855.0</x>
+          <y>162.0</y>
           <w>50.0</w>
-          <h>33.0</h>
+          <h>50.0</h>
         </rect>
-        <parents id="161"/>
-        <children id="162">
+        <parents id="226"/>
+        <children id="227">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="163">
+      <field.core.dispatch.VisualElement id="228">
         <uid>__438b082f:1428a28af5d:-7fce</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="164">
+        <properties id="229">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="29"/>
-            <field.core.ui.text.StyledTextUndo_-Memo id="165">
-              <changes id="166"/>
-              <redo id="167"/>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="34"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="230">
+              <changes id="231"/>
+              <redo id="232"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="168">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="233">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="169">
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="234">
               <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="163"/>
+              <element reference="228"/>
             </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="170">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="235">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="171"/>
+            <list id="236"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="172">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="237">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="173">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="238">
               <name>__currentlyEditingCaretPosition</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <int>79</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="174">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="239">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="175">
+            <field.core.windowing.components.DraggableComponent id="240">
               <class>field.core.windowing.components.DraggableComponent</class>
-              <visualElement reference="163"/>
+              <visualElement reference="228"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="176">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="241">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>one more box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="177">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="242">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -831,14 +1012,14 @@ print &quot;any old print thing&quot;
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="178">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="243">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="179">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="244">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -846,17 +1027,17 @@ print &quot;any old print thing&quot;
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="180">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="245">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="181">
+            <map id="246">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="182">
-                  <areas id="183"/>
-                  <rootHistogram id="184">
-                    <counts id="185"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="247">
+                  <areas id="248"/>
+                  <rootHistogram id="249">
+                    <counts id="250"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -864,74 +1045,74 @@ print &quot;any old print thing&quot;
             </map>
           </entry>
         </properties>
-        <rect id="186">
-          <x>133.0</x>
-          <y>185.0</y>
+        <rect id="251">
+          <x>743.0</x>
+          <y>175.0</y>
           <w>38.0</w>
           <h>50.0</h>
         </rect>
-        <parents id="187"/>
-        <children id="188">
+        <parents id="252"/>
+        <children id="253">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="189">
+      <field.core.dispatch.VisualElement id="254">
         <uid>__438b082f:1428a28af5d:-7fcc</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="190">
+        <properties id="255">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="191">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="256">
               <name>python_undoStack</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.ui.text.StyledTextUndo_-Memo id="192">
-              <changes id="193"/>
-              <redo id="194"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="257">
+              <changes id="258"/>
+              <redo id="259"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="195">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="260">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="196">
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="261">
               <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="189"/>
+              <element reference="254"/>
             </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="197">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="262">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="198"/>
+            <list id="263"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="199">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="264">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="200">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="265">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="201">
+            <field.core.windowing.components.DraggableComponent id="266">
               <class>field.core.windowing.components.DraggableComponent</class>
-              <visualElement reference="189"/>
+              <visualElement reference="254"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="202">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="267">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>a box with a generator</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="203">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="268">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -961,14 +1142,14 @@ _r = aGenerator()
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="204">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="269">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="205">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="270">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -976,17 +1157,17 @@ _r = aGenerator()
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="206">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="271">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="207">
+            <map id="272">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="208">
-                  <areas id="209"/>
-                  <rootHistogram id="210">
-                    <counts id="211"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="273">
+                  <areas id="274"/>
+                  <rootHistogram id="275">
+                    <counts id="276"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -994,78 +1175,95 @@ _r = aGenerator()
             </map>
           </entry>
         </properties>
-        <rect id="212">
-          <x>189.0</x>
-          <y>401.0</y>
+        <rect id="277">
+          <x>799.0</x>
+          <y>391.0</y>
           <w>202.0</w>
           <h>50.0</h>
         </rect>
-        <parents id="213"/>
-        <children id="214">
+        <parents id="278"/>
+        <children id="279">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="215">
+      <field.core.dispatch.VisualElement id="280">
         <uid>__438b082f:1428a28af5d:-7fd8</uid>
         <class>field.core.dispatch.VisualElement</class>
-        <properties id="216">
+        <properties id="281">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="29"/>
-            <field.core.ui.text.StyledTextUndo_-Memo id="217">
-              <changes id="218"/>
-              <redo id="219"/>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="34"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="282">
+              <changes id="283"/>
+              <redo id="284"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="220">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="285">
               <name>shouldAutoComputeRect</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="221">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="286">
               <name>overrides</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride id="222">
+            <field.core.plugins.drawing.SplineComputingOverride id="287">
               <class>field.core.plugins.drawing.SplineComputingOverride</class>
-              <element reference="215"/>
+              <element reference="280"/>
             </field.core.plugins.drawing.SplineComputingOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="223">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="288">
               <name>python_customInsertPersistanceInfo</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="224"/>
+            <list id="289"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="225">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="290">
               <name>__textEditorAnnotationPackage</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="226">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="227">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="215"/>
-            </field.core.windowing.components.PlainDraggableComponent>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="70"/>
+            <string>
+baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-4.0, 20.0), None), ) )
+</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="228">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
+            <int>85</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="291">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="229">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="292">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="293">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="280"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="294">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1095,51 +1293,44 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="230">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="231">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="296">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="232">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="297">
               <name>noFrame</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <int>1</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="233">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="298">
               <name>lines</name>
               <freezable>true</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="234" serialization="custom">
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="299" serialization="custom">
               <unserializable-parents/>
               <list>
                 <default>
                   <size>1</size>
                 </default>
                 <int>1</int>
-                <field.core.plugins.drawing.opengl.CachedLine id="235">
+                <field.core.plugins.drawing.opengl.CachedLine id="300">
                   <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0APBKdXN0IHRvIHRoZSBsZWZ0IG9mIHRoaXMgdGV4dCB0aGVyZSdzIGEgcmVkIGxpbmUgdGhhdCBjYW4gYmUgdXNlZCB0byBleGVjdXRlIGJveGVzIGJ5IGRyYWdnaW5nIGl0Lgo8cD48cD4KWW91IG1pZ2h0IGJlIGFibGUgdG8gZ3JhYiB0aGUgbGluZSBmcm9tIGhlcmUsIG9yIHlvdSBjYW4gcGFuIG92ZXIgYSBiaXQgdXNpbmcgdGhlIG1pZGRsZSBtb3VzZSBidXR0b24gKG9yIGEgZHJhZyBnZXN0dXJlIG9uIGEgbGFwdG9wKS5zcQB+ABR0AAZmb250X3ZzcgANamF2YS5hd3QuRm9udMWhNebM3lZzAwAGSQAZZm9udFNlcmlhbGl6ZWREYXRhVmVyc2lvbkYACXBvaW50U2l6ZUkABHNpemVJAAVzdHlsZUwAFGZSZXF1ZXN0ZWRBdHRyaWJ1dGVzdAAVTGphdmEvdXRpbC9IYXNodGFibGU7TAAEbmFtZXEAfgAVeHAAAAABQXAAAAAAAA8AAAAAcHQACUdpbGwgU2Fuc3h4AHhzcQB+ABE/QAAAAAAADHcIAAAAEAAAAARzcQB+ABR0ABBvZmZzZXRGcm9tU291cmNlc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjJ9DiTSDG7ixAIAAkYAAXhGAAF5eHAAAAAAAAAAAHNxAH4AFHQAFWNvbnRhaW5zTXVsdGlsaW5lVGV4dHNxAH4AGAAAAAFzcQB+ABR0AAx0b3RhbE9wYWNpdHlzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+AAk/4AAAAAAAAHNxAH4AFHQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
                 <default>
-                  <outer-class reference="222"/>
+                  <outer-class reference="287"/>
                 </default>
               </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
             </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="236">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="301">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1152,51 +1343,71 @@ _self.python_globals_.declare(_self, &quot;Font&quot;)
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="237">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="302">
               <name>python_areas</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="238">
+            <map id="303">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="239">
-                  <areas id="240">
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="241">
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="304">
+                  <areas id="305">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="306">
                       <allocation>0</allocation>
                       <lastSeenAt>3</lastSeenAt>
                       <lineStart>0</lineStart>
                       <lineEnd>8</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="242">
-                        <dictionary id="243"/>
+                      <extend id="307">
+                        <dictionary id="308"/>
                       </extend>
-                      <exec id="244">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="245">
-                          <when id="246">2009-10-14 14:47:38.83 BST</when>
+                      <exec id="309">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="310">
+                          <when id="311">2009-10-14 14:47:38.83 BST</when>
                           <stringAtExecution>from java.awt import Font</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
-                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="247">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="312">
                       <allocation>0</allocation>
                       <lastSeenAt>4</lastSeenAt>
                       <lineStart>9</lineStart>
                       <lineEnd>9</lineEnd>
                       <invalid>false</invalid>
-                      <extend id="248">
-                        <dictionary id="249"/>
+                      <extend id="313">
+                        <dictionary id="314"/>
                       </extend>
-                      <exec id="250">
-                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="251">
-                          <when id="252">2009-10-14 14:48:49.833 BST</when>
+                      <exec id="315">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="316">
+                          <when id="317">2009-10-14 14:48:49.833 BST</when>
                           <stringAtExecution>
 _self.lines.clear()</stringAtExecution>
                         </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
                       </exec>
                     </field.core.ui.text.rulers.ExecutedAreas_-Area>
                   </areas>
-                  <rootHistogram id="253">
-                    <counts id="254"/>
+                  <rootHistogram id="318">
+                    <counts id="319"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>python_executionScratch_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="320">
+                  <areas id="321"/>
+                  <rootHistogram id="322">
+                    <counts id="323"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+              <entry>
+                <string>tweak_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="324">
+                  <areas id="325"/>
+                  <rootHistogram id="326">
+                    <counts id="327"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -1204,165 +1415,1753 @@ _self.lines.clear()</stringAtExecution>
             </map>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="255">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="328">
               <name>alignment_doNotParticipate</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
         </properties>
-        <rect id="256">
-          <x>14.0</x>
-          <y>257.0</y>
+        <rect id="329">
+          <x>618.0</x>
+          <y>255.0</y>
           <w>50.0</w>
           <h>33.0</h>
         </rect>
-        <parents id="257"/>
-        <children id="258">
+        <parents id="330"/>
+        <children id="331">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </children>
+      </field.core.dispatch.VisualElement>
+      <field.core.dispatch.VisualElement id="332">
+        <uid>__4226571d:1428b787bae:-7fed</uid>
+        <class>field.core.dispatch.VisualElement</class>
+        <properties id="333">
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="157"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="334">
+              <changes id="335">
+                <field.core.ui.text.StyledTextUndo_-Change id="336">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="337">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="338">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="339">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="340">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="341">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="342">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="343">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="344">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="345">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="346">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="347">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="348">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="349">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="350">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="351">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="352">
+                  <start>16</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>16</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="353">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="354">
+                  <start>18</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>18</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="355">
+                  <start>19</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>19</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="356">
+                  <start>20</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="357">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="358">
+                  <start>21</start>
+                  <length>0</length>
+                  <replacedBy>-</replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="359">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="360">
+                  <start>22</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="361">
+                  <start>23</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>23</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="362">
+                  <start>24</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>24</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="363">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="364">
+                  <start>26</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="365">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="366">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="367">
+                  <start>29</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>29</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="368">
+                  <start>30</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>30</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="369">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="370">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="371">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="372">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="373">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="374">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="375">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="376">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="377">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="378">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="379">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="380">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="381">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="382">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="383">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="384">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="385">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="386">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="387">
+                  <start>16</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>16</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="388">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="389">
+                  <start>18</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>18</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="390">
+                  <start>19</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>19</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="391">
+                  <start>20</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="392">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="393">
+                  <start>22</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="394">
+                  <start>23</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>23</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="395">
+                  <start>24</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>24</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="396">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="397">
+                  <start>25</start>
+                  <length>0</length>
+                  <replacedBy>t</replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="398">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="399">
+                  <start>26</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="400">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="401">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="402">
+                  <start>29</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>29</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="403">
+                  <start>30</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>30</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="404">
+                  <start>31</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>31</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="405">
+                  <start>32</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>32</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="406">
+                  <start>33</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>33</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="407">
+                  <start>34</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>34</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="408">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="409">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="410">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="411">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="412">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="413">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="414">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="415">
+                  <start>42</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="416">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="417">
+                  <start>44</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="418">
+                  <start>45</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="419">
+                  <start>46</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>46</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="420">
+                  <start>47</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>47</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="421">
+                  <start>48</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="422">
+                  <start>49</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="423">
+                  <start>50</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>50</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="424">
+                  <start>51</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>51</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="425">
+                  <start>52</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>52</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="426">
+                  <start>53</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>53</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="427">
+                  <start>83</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>83</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="428">
+                  <start>84</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>84</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="429">
+                  <start>85</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>85</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="430">
+                  <start>86</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>86</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="431">
+                  <start>87</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>87</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="432">
+                  <start>88</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>88</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="433">
+                  <start>89</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>89</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="434">
+                  <start>93</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>93</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="435">
+                  <start>94</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>94</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="436">
+                  <start>95</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>95</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="437">
+                  <start>96</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>96</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="438">
+                  <start>97</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>97</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="439">
+                  <start>98</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>98</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="440">
+                  <start>99</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>99</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="441">
+                  <start>100</start>
+                  <length>0</length>
+                  <replacedBy>
+</replacedBy>
+                  <selectionStart>101</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+              </changes>
+              <redo id="442"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="443">
+              <name>overrides</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="444">
+              <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
+              <element reference="332"/>
+            </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="445">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="446"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
+            <int>100</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="447">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.DraggableComponent id="448">
+              <class>field.core.windowing.components.DraggableComponent</class>
+              <visualElement reference="332"/>
+            </field.core.windowing.components.DraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="449">
+              <name>python_source_v</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>def start():
+	print &quot;START&quot;
+
+def stop():
+	print &quot;STOP&quot;
+
+def foo():
+	print _t
+
+_r = start, foo, stop
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="450">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>basic events</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="451">
+              <name>dirty</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="452">
+              <name>python_autoExec_v</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>
+_self.python_globals_.declare(_self, &quot;foo&quot;)
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="453">
+              <name>python_areas</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <map id="454">
+              <entry>
+                <string>python_source_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="455">
+                  <areas id="456"/>
+                  <rootHistogram id="457">
+                    <counts id="458"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+            </map>
+          </entry>
+        </properties>
+        <rect id="459">
+          <x>49.0</x>
+          <y>70.0</y>
+          <w>159.0</w>
+          <h>50.0</h>
+        </rect>
+        <parents id="460"/>
+        <children id="461">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </children>
+      </field.core.dispatch.VisualElement>
+      <field.core.dispatch.VisualElement id="462">
+        <uid>__4226571d:1428b787bae:-7fec</uid>
+        <class>field.core.dispatch.VisualElement</class>
+        <properties id="463">
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="157"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="464">
+              <changes id="465">
+                <field.core.ui.text.StyledTextUndo_-Change id="466">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="467">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="468">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="469">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="470">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="471">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="472">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="473">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="474">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="475">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="476">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="477">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="478">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="479">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="480">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="481">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="482">
+                  <start>16</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>16</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="483">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="484">
+                  <start>18</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>18</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="485">
+                  <start>19</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>19</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="486">
+                  <start>20</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="487">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="488">
+                  <start>22</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="489">
+                  <start>23</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>23</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="490">
+                  <start>24</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>24</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="491">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="492">
+                  <start>26</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="493">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="494">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="495">
+                  <start>29</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>29</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="496">
+                  <start>30</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>30</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="497">
+                  <start>31</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>31</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="498">
+                  <start>32</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>32</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="499">
+                  <start>33</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>33</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="500">
+                  <start>34</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>34</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="501">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="502">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="503">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="504">
+                  <start>37</start>
+                  <length>0</length>
+                  <replacedBy>n</replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="505">
+                  <start>36</start>
+                  <length>0</length>
+                  <replacedBy>r</replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="506">
+                  <start>35</start>
+                  <length>0</length>
+                  <replacedBy>p</replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="507">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="508">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="509">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="510">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="511">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="512">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="513">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="514">
+                  <start>42</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="515">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="516">
+                  <start>41</start>
+                  <length>0</length>
+                  <replacedBy>i</replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="517">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="518">
+                  <start>32</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>32</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="519">
+                  <start>33</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>33</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="520">
+                  <start>34</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>34</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="521">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="522">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="523">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="524">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="525">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="526">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="527">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="528">
+                  <start>54</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>54</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="529">
+                  <start>55</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>55</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="530">
+                  <start>56</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>56</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="531">
+                  <start>57</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>57</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="532">
+                  <start>58</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>58</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="533">
+                  <start>59</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>59</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="534">
+                  <start>60</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>60</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="535">
+                  <start>61</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>61</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="536">
+                  <start>62</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>62</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="537">
+                  <start>63</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>63</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="538">
+                  <start>64</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>64</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="539">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy>100</replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>3</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="540">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+              </changes>
+              <redo id="541"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="443"/>
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="542">
+              <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
+              <element reference="462"/>
+            </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="445"/>
+            <list id="543"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
+            <int>29</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
+            <field.core.windowing.components.DraggableComponent id="544">
+              <class>field.core.windowing.components.DraggableComponent</class>
+              <visualElement reference="462"/>
+            </field.core.windowing.components.DraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
+            <string>generator</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="449"/>
+            <string>def foo():
+	for i in range(10):
+		print i
+		yield 1
+
+_r = foo()
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="452"/>
+            <string></string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="453"/>
+            <map id="545">
+              <entry>
+                <string>python_source_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="546">
+                  <areas id="547"/>
+                  <rootHistogram id="548">
+                    <counts id="549"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+            </map>
+          </entry>
+        </properties>
+        <rect id="550">
+          <x>244.0</x>
+          <y>162.0</y>
+          <w>159.0</w>
+          <h>50.0</h>
+        </rect>
+        <parents id="551"/>
+        <children id="552">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </children>
+      </field.core.dispatch.VisualElement>
+      <field.core.dispatch.VisualElement id="553">
+        <uid>__4226571d:1428b787bae:-7feb</uid>
+        <class>field.core.dispatch.VisualElement</class>
+        <properties id="554">
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="157"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="555">
+              <changes id="556"/>
+              <redo id="557"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="558">
+              <name>shouldAutoComputeRect</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>true</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="443"/>
+            <field.core.plugins.drawing.SplineComputingOverride id="559">
+              <class>field.core.plugins.drawing.SplineComputingOverride</class>
+              <element reference="553"/>
+            </field.core.plugins.drawing.SplineComputingOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="560">
+              <name>hasMouseFocus</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
+            <field.core.windowing.components.PlainDraggableComponent id="561">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="553"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
+            <string>untitled spline computation</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
+            <boolean>true</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="562">
+              <name>noFrame</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="452"/>
+            <string></string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="563">
+              <name>lines</name>
+              <freezable>true</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="564" serialization="custom">
+              <unserializable-parents/>
+              <list>
+                <default>
+                  <size>0</size>
+                </default>
+                <int>0</int>
+              </list>
+              <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+                <default>
+                  <outer-class reference="559"/>
+                </default>
+              </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+            </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="453"/>
+            <map id="565">
+              <entry>
+                <string>python_source_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="566">
+                  <areas id="567"/>
+                  <rootHistogram id="568">
+                    <counts id="569"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+            </map>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="570">
+              <name>alignment_doNotParticipate</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>true</boolean>
+          </entry>
+        </properties>
+        <rect id="571">
+          <x>465.0</x>
+          <y>288.0</y>
+          <w>50.0</w>
+          <h>50.0</h>
+        </rect>
+        <parents id="572"/>
+        <children id="573">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
     </parents>
-    <children id="259">
-      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="260">
+    <children id="574">
+      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="575">
         <uid>//plugin_python</uid>
-        <parents id="261">
+        <parents id="576">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="262"/>
+        <children id="577"/>
       </field.core.plugins.python.PythonPlugin_-LocalVisualElement>
-      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="263">
+      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="578">
         <uid>//inspector_python</uid>
-        <parents id="264">
+        <parents id="579">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="265"/>
+        <children id="580"/>
       </field.core.plugins.NewInspectorPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="266">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="581">
         <uid>//plugin_binding</uid>
-        <parents id="267">
+        <parents id="582">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="268"/>
+        <children id="583"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.connection.Connections_-LocalVisualElement id="269">
+      <field.core.plugins.connection.Connections_-LocalVisualElement id="584">
         <uid>//plugin_connections</uid>
-        <parents id="270">
+        <parents id="585">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="271"/>
+        <children id="586"/>
       </field.core.plugins.connection.Connections_-LocalVisualElement>
-      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="272">
+      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="587">
         <uid>//plugin_simpleConstraints</uid>
-        <parents id="273">
+        <parents id="588">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="274"/>
+        <children id="589"/>
       </field.core.plugins.SimpleConstraints_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="275">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="590">
         <uid>//plugin_pseudoproperties</uid>
-        <parents id="276">
+        <parents id="591">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="277"/>
+        <children id="592"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="278">
+      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="593">
         <uid>//AudoExecutePython</uid>
-        <parents id="279">
+        <parents id="594">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="280"/>
+        <children id="595"/>
       </field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement>
-      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="281">
+      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="596">
         <uid>//plugin_basicDrawingPlugin</uid>
-        <parents id="282">
+        <parents id="597">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="283"/>
+        <children id="598"/>
       </field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="284">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="599">
         <uid>//plugin_snip</uid>
-        <parents id="285">
+        <parents id="600">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="286"/>
+        <children id="601"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="287">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="602">
         <uid>//plugin_efs</uid>
-        <parents id="288">
+        <parents id="603">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="289"/>
+        <children id="604"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="290">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="605">
         <uid>//plugin_help</uid>
-        <parents id="291">
+        <parents id="606">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="292"/>
+        <children id="607"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="293">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="608">
         <uid>//plugin_tree</uid>
-        <parents id="294">
+        <parents id="609">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="295"/>
+        <children id="610"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="296">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="611">
         <uid>//plugin_fieldgraphics</uid>
-        <parents id="297">
+        <parents id="612">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="298"/>
+        <children id="613"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="299">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="614">
         <uid>//plugin_hierarchy</uid>
-        <parents id="300">
+        <parents id="615">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="301"/>
+        <children id="616"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="302">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="617">
         <uid>//plugin_freehand</uid>
-        <parents id="303">
+        <parents id="618">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="304"/>
+        <children id="619"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="305">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="620">
         <uid>//plugin_freehand</uid>
-        <parents id="306">
+        <parents id="621">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="307"/>
+        <children id="622"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="308">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="623">
         <uid>//plugin_jsrscripting</uid>
-        <parents id="309">
+        <parents id="624">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="310"/>
+        <children id="625"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="311">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="626">
         <uid>//plugin_osc</uid>
-        <parents id="312">
+        <parents id="627">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="313"/>
+        <children id="628"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="314">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="629">
         <uid>//plugin_scrubber</uid>
-        <parents id="315">
+        <parents id="630">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="316"/>
+        <children id="631"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="317">
+      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="632">
         <uid>//topology_plugin</uid>
-        <parents id="318">
+        <parents id="633">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="319"/>
+        <children id="634"/>
       </marc.plugins.topology.TopologyPlugin_-LocalVisualElement>
     </children>
   </field.core.StandardFluidSheet_-RootSheetElement>
@@ -1405,24 +3204,45 @@ _self.lines.clear()</stringAtExecution>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
       <entry>
-        <string>__438b082f:1428a28af5d:-7fd2</string>
+        <string>__4226571d:1428b787bae:-7feb</string>
         <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="13">
-          <uid>__438b082f:1428a28af5d:-7fd2</uid>
+          <uid>__4226571d:1428b787bae:-7feb</uid>
           <persistantVariables id="14"/>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
       <entry>
-        <string>__438b082f:1428a28af5d:-7fcc</string>
+        <string>__438b082f:1428a28af5d:-7fd2</string>
         <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="15">
-          <uid>__438b082f:1428a28af5d:-7fcc</uid>
+          <uid>__438b082f:1428a28af5d:-7fd2</uid>
           <persistantVariables id="16"/>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
       <entry>
-        <string>__438b082f:1428a28af5d:-7fd4</string>
+        <string>__4226571d:1428b787bae:-7fed</string>
         <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="17">
-          <uid>__438b082f:1428a28af5d:-7fd4</uid>
+          <uid>__4226571d:1428b787bae:-7fed</uid>
           <persistantVariables id="18"/>
+        </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
+      </entry>
+      <entry>
+        <string>__438b082f:1428a28af5d:-7fcc</string>
+        <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="19">
+          <uid>__438b082f:1428a28af5d:-7fcc</uid>
+          <persistantVariables id="20"/>
+        </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
+      </entry>
+      <entry>
+        <string>__4226571d:1428b787bae:-7fec</string>
+        <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="21">
+          <uid>__4226571d:1428b787bae:-7fec</uid>
+          <persistantVariables id="22"/>
+        </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
+      </entry>
+      <entry>
+        <string>__438b082f:1428a28af5d:-7fd4</string>
+        <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="23">
+          <uid>__438b082f:1428a28af5d:-7fd4</uid>
+          <persistantVariables id="24"/>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
     </right>
