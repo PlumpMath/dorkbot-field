@@ -109,8 +109,8 @@
           </entry>
         </properties>
         <rect id="29">
-          <x>414.0</x>
-          <y>299.0</y>
+          <x>511.0</x>
+          <y>379.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
@@ -145,37 +145,23 @@
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="40">
-              <name>python_customInsertPersistanceInfo</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="41"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="42">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="43">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="44">
+            <field.core.windowing.components.DraggableComponent id="41">
               <class>field.core.windowing.components.DraggableComponent</class>
               <visualElement reference="32"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="45">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="42">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>a box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="46">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="43">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -200,20 +186,34 @@ _r = start, keepGoing, stop
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="47">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="44">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="48">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="45">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="46"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="47">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>
 _self.python_globals_.declare(_self, &quot;keepGoing&quot;)
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="48">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="49">
@@ -313,30 +313,23 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-1.0, 5.0)
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="72">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="73">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="58"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="74">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="73">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="74">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="58"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="75">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -362,6 +355,13 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="77">
@@ -469,7 +469,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="105">
                   <areas id="106"/>
                   <rootHistogram id="107">
@@ -479,7 +479,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="109">
                   <areas id="110"/>
                   <rootHistogram id="111">
@@ -509,7 +509,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="121">
                   <areas id="122"/>
                   <rootHistogram id="123">
@@ -519,7 +519,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="125">
                   <areas id="126"/>
                   <rootHistogram id="127">
@@ -565,37 +565,23 @@ _self.lines.clear()</stringAtExecution>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="137">
-              <name>python_customInsertPersistanceInfo</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="138"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="139">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="140">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="141">
+            <field.core.windowing.components.DraggableComponent id="138">
               <class>field.core.windowing.components.DraggableComponent</class>
               <visualElement reference="133"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="142">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="139">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>another box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="143">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="140">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -610,19 +596,33 @@ _r = keepGoing
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="144">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="141">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="145">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="142">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="143"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="144">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="145">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="146">
@@ -705,23 +705,30 @@ _r = keepGoing
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="167">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="168">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="155"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="169">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="168">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="169">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="155"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="170">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -747,13 +754,6 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="172">
@@ -861,7 +861,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="200">
                   <areas id="201"/>
                   <rootHistogram id="202">
@@ -871,7 +871,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="204">
                   <areas id="205"/>
                   <rootHistogram id="206">
@@ -901,7 +901,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="216">
                   <areas id="217"/>
                   <rootHistogram id="218">
@@ -911,7 +911,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="220">
                   <areas id="221"/>
                   <rootHistogram id="222">
@@ -946,62 +946,48 @@ _self.lines.clear()</stringAtExecution>
         <class>field.core.dispatch.VisualElement</class>
         <properties id="229">
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="34"/>
-            <field.core.ui.text.StyledTextUndo_-Memo id="230">
-              <changes id="231"/>
-              <redo id="232"/>
-            </field.core.ui.text.StyledTextUndo_-Memo>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="233">
-              <name>overrides</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="234">
-              <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="228"/>
-            </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="235">
-              <name>python_customInsertPersistanceInfo</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="236"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="237">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="238">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="230">
               <name>__currentlyEditingCaretPosition</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <int>79</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="239">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="34"/>
+            <field.core.ui.text.StyledTextUndo_-Memo id="231">
+              <changes id="232"/>
+              <redo id="233"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="234">
+              <name>overrides</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="235">
+              <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
+              <element reference="228"/>
+            </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="236">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="240">
+            <field.core.windowing.components.DraggableComponent id="237">
               <class>field.core.windowing.components.DraggableComponent</class>
               <visualElement reference="228"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="241">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="238">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>one more box</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="242">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="239">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1012,19 +998,33 @@ print &quot;any old print thing&quot;
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="243">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="240">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="244">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="241">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="242"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="243">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="244">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="245">
@@ -1082,37 +1082,23 @@ print &quot;any old print thing&quot;
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="262">
-              <name>python_customInsertPersistanceInfo</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <list id="263"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="264">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="265">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="266">
+            <field.core.windowing.components.DraggableComponent id="263">
               <class>field.core.windowing.components.DraggableComponent</class>
               <visualElement reference="254"/>
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="267">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="264">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>a box with a generator</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="268">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="265">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1142,19 +1128,33 @@ _r = aGenerator()
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="269">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="266">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="270">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="267">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="268"/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="269">
               <name>python_autoExec_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="270">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="271">
@@ -1240,30 +1240,23 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-4.0, 20.0
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="291">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="292">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="280"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="293">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="292">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="293">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="280"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="294">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1291,6 +1284,13 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="296">
@@ -2857,10 +2857,6 @@ _self.python_globals_.declare(_self, &quot;foo&quot;)
             </field.core.windowing.components.DraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
-            <string>generator</string>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="449"/>
             <string>def foo():
 	for i in range(10):
@@ -2869,6 +2865,10 @@ _self.python_globals_.declare(_self, &quot;foo&quot;)
 
 _r = foo()
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
+            <string>generator</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
@@ -2895,8 +2895,8 @@ _r = foo()
           </entry>
         </properties>
         <rect id="550">
-          <x>244.0</x>
-          <y>162.0</y>
+          <x>302.0</x>
+          <y>119.0</y>
           <w>159.0</w>
           <h>50.0</h>
         </rect>
@@ -2912,90 +2912,1593 @@ _r = foo()
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="157"/>
             <field.core.ui.text.StyledTextUndo_-Memo id="555">
-              <changes id="556"/>
-              <redo id="557"/>
+              <changes id="556">
+                <field.core.ui.text.StyledTextUndo_-Change id="557">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="558">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="559">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="560">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="561">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="562">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="563">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="564">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="565">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="566">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="567">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="568">
+                  <start>10</start>
+                  <length>0</length>
+                  <replacedBy>)</replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="569">
+                  <start>9</start>
+                  <length>0</length>
+                  <replacedBy>(</replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="570">
+                  <start>8</start>
+                  <length>0</length>
+                  <replacedBy>e</replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="571">
+                  <start>7</start>
+                  <length>0</length>
+                  <replacedBy>n</replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="572">
+                  <start>6</start>
+                  <length>0</length>
+                  <replacedBy>I</replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="573">
+                  <start>5</start>
+                  <length>0</length>
+                  <replacedBy>L</replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="574">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="575">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="576">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="577">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="578">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="579">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="580">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="581">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="582">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="583">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="584">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="585">
+                  <start>16</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>16</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="586">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="587">
+                  <start>18</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>18</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="588">
+                  <start>19</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>19</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="589">
+                  <start>20</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="590">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="591">
+                  <start>22</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="592">
+                  <start>23</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>23</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="593">
+                  <start>24</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>24</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="594">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="595">
+                  <start>26</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="596">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="597">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="598">
+                  <start>29</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>29</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="599">
+                  <start>30</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>30</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="600">
+                  <start>31</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>31</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="601">
+                  <start>32</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>32</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="602">
+                  <start>33</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>33</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="603">
+                  <start>34</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>34</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="604">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="605">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="606">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="607">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="608">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="609">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="610">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="611">
+                  <start>42</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="612">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="613">
+                  <start>44</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="614">
+                  <start>45</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="615">
+                  <start>46</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>46</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="616">
+                  <start>47</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>47</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="617">
+                  <start>48</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="618">
+                  <start>49</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="619">
+                  <start>49</start>
+                  <length>0</length>
+                  <replacedBy> </replacedBy>
+                  <selectionStart>50</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="620">
+                  <start>48</start>
+                  <length>0</length>
+                  <replacedBy>,</replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="621">
+                  <start>47</start>
+                  <length>0</length>
+                  <replacedBy> </replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="622">
+                  <start>47</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>47</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="623">
+                  <start>48</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="624">
+                  <start>49</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="625">
+                  <start>50</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>50</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="626">
+                  <start>51</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>51</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="627">
+                  <start>52</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>52</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="628">
+                  <start>12</start>
+                  <length>0</length>
+                  <replacedBy>f.moveTo(200, 200)
+</replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>19</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="629">
+                  <start>34</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>34</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="630">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="631">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="632">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="633">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="634">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="635">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="636">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="637">
+                  <start>42</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="638">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="639">
+                  <start>44</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="640">
+                  <start>45</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="641">
+                  <start>46</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>46</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="642">
+                  <start>47</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>47</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="643">
+                  <start>48</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="644">
+                  <start>49</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="645">
+                  <start>50</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>50</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="646">
+                  <start>51</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>51</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="647">
+                  <start>52</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>52</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="648">
+                  <start>53</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>53</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="649">
+                  <start>54</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>54</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="650">
+                  <start>55</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>55</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="651">
+                  <start>56</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>56</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="652">
+                  <start>57</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>57</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="653">
+                  <start>58</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>58</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="654">
+                  <start>59</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>59</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="655">
+                  <start>60</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>60</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="656">
+                  <start>61</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>61</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="657">
+                  <start>62</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>62</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="658">
+                  <start>63</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>63</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="659">
+                  <start>64</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>64</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="660">
+                  <start>65</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>65</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="661">
+                  <start>66</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>66</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="662">
+                  <start>67</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>67</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="663">
+                  <start>68</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>68</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="664">
+                  <start>69</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>69</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="665">
+                  <start>70</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>70</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="666">
+                  <start>71</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>71</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="667">
+                  <start>72</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>72</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="668">
+                  <start>73</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>73</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="669">
+                  <start>74</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>74</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="670">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="671">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="672">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="673">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="674">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="675">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="676">
+                  <start>40</start>
+                  <length>0</length>
+                  <replacedBy>l</replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="677">
+                  <start>39</start>
+                  <length>0</length>
+                  <replacedBy>l</replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="678">
+                  <start>38</start>
+                  <length>0</length>
+                  <replacedBy>i</replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="679">
+                  <start>37</start>
+                  <length>0</length>
+                  <replacedBy>f</replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="680">
+                  <start>36</start>
+                  <length>0</length>
+                  <replacedBy>.</replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="681">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="682">
+                  <start>36</start>
+                  <length>0</length>
+                  <replacedBy>.</replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="683">
+                  <start>35</start>
+                  <length>0</length>
+                  <replacedBy>f</replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="684">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="685">
+                  <start>35</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>35</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="686">
+                  <start>36</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>36</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="687">
+                  <start>37</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>37</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="688">
+                  <start>38</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>38</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="689">
+                  <start>39</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>39</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="690">
+                  <start>40</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>40</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="691">
+                  <start>41</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>41</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="692">
+                  <start>42</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>42</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="693">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="694">
+                  <start>44</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="695">
+                  <start>45</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="696">
+                  <start>45</start>
+                  <length>0</length>
+                  <replacedBy>=</replacedBy>
+                  <selectionStart>46</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="697">
+                  <start>44</start>
+                  <length>0</length>
+                  <replacedBy> </replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="698">
+                  <start>43</start>
+                  <length>0</length>
+                  <replacedBy> </replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="699">
+                  <start>43</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>43</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="700">
+                  <start>44</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>44</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="701">
+                  <start>45</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>45</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="702">
+                  <start>46</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>46</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="703">
+                  <start>47</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>47</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="704">
+                  <start>48</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>48</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="705">
+                  <start>49</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>49</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="706">
+                  <start>50</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>50</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="707">
+                  <start>51</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>51</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="708">
+                  <start>51</start>
+                  <length>0</length>
+                  <replacedBy>s</replacedBy>
+                  <selectionStart>52</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="709">
+                  <start>51</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>51</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="710">
+                  <start>52</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>52</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="711">
+                  <start>53</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>53</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="712">
+                  <start>54</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>54</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="713">
+                  <start>55</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>55</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="714">
+                  <start>56</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>56</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="715">
+                  <start>57</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>57</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="716">
+                  <start>58</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>58</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="717">
+                  <start>59</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>59</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="718">
+                  <start>60</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>60</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="719">
+                  <start>61</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>61</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="720">
+                  <start>62</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>62</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="721">
+                  <start>63</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>63</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="722">
+                  <start>64</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>64</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="723">
+                  <start>65</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>65</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="724">
+                  <start>66</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>66</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="725">
+                  <start>67</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>67</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="726">
+                  <start>59</start>
+                  <length>0</length>
+                  <replacedBy>u</replacedBy>
+                  <selectionStart>60</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="727">
+                  <start>67</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>67</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="728">
+                  <start>68</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>68</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="729">
+                  <start>69</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>69</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="730">
+                  <start>70</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>70</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="731">
+                  <start>71</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>71</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="732">
+                  <start>72</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>72</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="733">
+                  <start>73</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>73</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="734">
+                  <start>74</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>74</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="735">
+                  <start>75</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>75</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="736">
+                  <start>76</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>76</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="737">
+                  <start>77</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>77</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="738">
+                  <start>78</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>78</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="739">
+                  <start>79</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>79</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="740">
+                  <start>80</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>80</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="741">
+                  <start>81</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>81</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="742">
+                  <start>10</start>
+                  <length>31</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="743">
+                  <start>80</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>80</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="744">
+                  <start>67</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>67</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="745">
+                  <start>67</start>
+                  <length>0</length>
+                  <replacedBy>$</replacedBy>
+                  <selectionStart>68</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="746">
+                  <start>67</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>67</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="747">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="748">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="749">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="750">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="751">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="752">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="753">
+                  <start>16</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>16</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="754">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="755">
+                  <start>18</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>18</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="756">
+                  <start>19</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>19</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="757">
+                  <start>77</start>
+                  <length>0</length>
+                  <replacedBy>#f.filled = 1
+#f.fillColor=Vector4(0, 0, 0, 0.2)
+
+</replacedBy>
+                  <selectionStart>77</selectionStart>
+                  <selectionLength>50</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="758">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="759">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="760">
+                  <start>1</start>
+                  <length>0</length>
+                  <replacedBy>
+</replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="761">
+                  <start>0</start>
+                  <length>0</length>
+                  <replacedBy>
+</replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+              </changes>
+              <redo id="762"/>
             </field.core.ui.text.StyledTextUndo_-Memo>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="558">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="763">
               <name>shouldAutoComputeRect</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <boolean>true</boolean>
+            <boolean>false</boolean>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="443"/>
-            <field.core.plugins.drawing.SplineComputingOverride id="559">
+            <field.core.plugins.drawing.SplineComputingOverride id="764">
               <class>field.core.plugins.drawing.SplineComputingOverride</class>
               <element reference="553"/>
             </field.core.plugins.drawing.SplineComputingOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="765">
+              <name>python_customInsertPersistanceInfo</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <list id="766"/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
             <null/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="560">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="767">
+              <name>tweak_v</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>
+baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(79.0, 112.0), None), ) )
+
+baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(20.0, -16.0), None), ) )
+
+baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(52.0, 3.0), None), ) )
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="768">
+              <name>__currentlyEditingCaretPosition</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <int>116</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
+            <field.core.windowing.components.PlainDraggableComponent id="769">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="553"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="770">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
-            <field.core.windowing.components.PlainDraggableComponent id="561">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="553"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
             <string>untitled spline computation</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="771">
+              <name>python_source_v</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>f = FLine(filled=1, fillColor=Vector4(0, 0, 0, 0.2))
+f.circle(50, 200, 200)
+
+_self.lines.clear()
+_self.lines.add(f)
+</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
             <boolean>true</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="562">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="772">
               <name>noFrame</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="452"/>
-            <string></string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="563">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="773">
               <name>lines</name>
               <freezable>true</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="564" serialization="custom">
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="774" serialization="custom">
               <unserializable-parents/>
               <list>
                 <default>
-                  <size>0</size>
+                  <size>1</size>
                 </default>
-                <int>0</int>
+                <int>1</int>
+                <field.core.plugins.drawing.opengl.CachedLine id="775">
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3oAAHNxAH4ACENIAAB1cQB+AAYAAAAGc3EAfgAIQ3oAAHNxAH4ACENjnT9zcQB+AAhDY50/c3EAfgAIQ3oAAHNxAH4ACENIAABzcQB+AAhDegAAdXEAfgAGAAAABnNxAH4ACEMsYsFzcQB+AAhDegAAc3EAfgAIQxYAAHNxAH4ACENjnT9zcQB+AAhDFgAAc3EAfgAIQ0gAAHVxAH4ABgAAAAZzcQB+AAhDFgAAc3EAfgAIQyxiwXNxAH4ACEMsYsFzcQB+AAhDFgAAc3EAfgAIQ0gAAHNxAH4ACEMWAAB1cQB+AAYAAAAGc3EAfgAIQ2OdP3NxAH4ACEMWAABzcQB+AAhDegAAc3EAfgAIQyxiwXNxAH4ACEN6AABzcQB+AAhDSAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0AAAAAAAAAAAAAAABzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
                 <default>
-                  <outer-class reference="559"/>
+                  <outer-class reference="764"/>
                 </default>
               </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
             </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="452"/>
+            <string>
+_self.python_globals_.declare(_self, &quot;f&quot;)
+</string>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="453"/>
-            <map id="565">
+            <map id="776">
               <entry>
                 <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="566">
-                  <areas id="567"/>
-                  <rootHistogram id="568">
-                    <counts id="569"/>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="777">
+                  <areas id="778">
+                    <field.core.ui.text.rulers.ExecutedAreas_-Area id="779">
+                      <allocation>0</allocation>
+                      <lastSeenAt>1</lastSeenAt>
+                      <lineStart>0</lineStart>
+                      <lineEnd>0</lineEnd>
+                      <invalid>false</invalid>
+                      <extend id="780">
+                        <dictionary class="linked-hash-map" id="781"/>
+                      </extend>
+                      <exec id="782">
+                        <field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord id="783">
+                          <when id="784">2013-11-24 20:36:35.511 GMT</when>
+                          <stringAtExecution>f = FLine()</stringAtExecution>
+                        </field.core.ui.text.rulers.ExecutedAreas_-ExecutionRecord>
+                      </exec>
+                    </field.core.ui.text.rulers.ExecutedAreas_-Area>
+                  </areas>
+                  <rootHistogram id="785">
+                    <counts id="786"/>
                     <normalization>0.0</normalization>
                   </rootHistogram>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
@@ -3003,165 +4506,1254 @@ _r = foo()
             </map>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="570">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="787">
               <name>alignment_doNotParticipate</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
           </entry>
         </properties>
-        <rect id="571">
-          <x>465.0</x>
-          <y>288.0</y>
-          <w>50.0</w>
-          <h>50.0</h>
+        <rect id="788">
+          <x>240.0</x>
+          <y>190.0</y>
+          <w>20.0</w>
+          <h>20.0</h>
         </rect>
-        <parents id="572"/>
-        <children id="573">
+        <parents id="789"/>
+        <children id="790">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </children>
+      </field.core.dispatch.VisualElement>
+      <field.core.dispatch.VisualElement id="791">
+        <uid>__55c12843:1428bcfa2ee:-7fd5</uid>
+        <class>field.core.dispatch.VisualElement</class>
+        <properties id="792">
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="793">
+              <name>python_undoStack</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.ui.text.StyledTextUndo_-Memo id="794">
+              <changes id="795">
+                <field.core.ui.text.StyledTextUndo_-Change id="796">
+                  <start>0</start>
+                  <length>116</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="797">
+                  <start>71</start>
+                  <length>0</length>
+                  <replacedBy>2</replacedBy>
+                  <selectionStart>72</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="798">
+                  <start>71</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>71</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="799">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="800">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="801">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="802">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="803">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="804">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="805">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="806">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="807">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="808">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="809">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="810">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="811">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="812">
+                  <start>10</start>
+                  <length>0</length>
+                  <replacedBy>L</replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="813">
+                  <start>9</start>
+                  <length>0</length>
+                  <replacedBy>(</replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="814">
+                  <start>8</start>
+                  <length>0</length>
+                  <replacedBy>8</replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="815">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="816">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="817">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="818">
+                  <start>11</start>
+                  <length>0</length>
+                  <replacedBy>
+</replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="819">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="820">
+                  <start>66</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>66</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="821">
+                  <start>91</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>91</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="822">
+                  <start>113</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>113</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="823">
+                  <start>113</start>
+                  <length>0</length>
+                  <replacedBy>	</replacedBy>
+                  <selectionStart>114</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="824">
+                  <start>112</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>112</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="825">
+                  <start>132</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>132</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="826">
+                  <start>133</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>133</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="827">
+                  <start>134</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>134</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="828">
+                  <start>135</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>135</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="829">
+                  <start>136</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>136</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="830">
+                  <start>137</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>137</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="831">
+                  <start>138</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>138</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="832">
+                  <start>139</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>139</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="833">
+                  <start>140</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>140</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="834">
+                  <start>141</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>141</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="835">
+                  <start>142</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>142</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="836">
+                  <start>78</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>78</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="837">
+                  <start>79</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>79</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="838">
+                  <start>80</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>80</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="839">
+                  <start>81</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>81</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="840">
+                  <start>82</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>82</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="841">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="842">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="843">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="844">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="845">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="846">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="847">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="848">
+                  <start>4</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>4</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="849">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="850">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="851">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="852">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="853">
+                  <start>10</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>10</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="854">
+                  <start>57</start>
+                  <length>1</length>
+                  <replacedBy>Vector4(0, 0, 0, 0.2)</replacedBy>
+                  <selectionStart>57</selectionStart>
+                  <selectionLength>21</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="855">
+                  <start>58</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>58</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="856">
+                  <start>59</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>59</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="857">
+                  <start>60</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>60</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="858">
+                  <start>61</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>61</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="859">
+                  <start>62</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>62</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="860">
+                  <start>0</start>
+                  <length>0</length>
+                  <replacedBy>COLOUR = 
+</replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>11</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="861">
+                  <start>0</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>0</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="862">
+                  <start>1</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>1</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="863">
+                  <start>2</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>2</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="864">
+                  <start>3</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>3</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="865">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="866">
+                  <start>5</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>5</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="867">
+                  <start>6</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>6</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="868">
+                  <start>7</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>7</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="869">
+                  <start>8</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>8</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="870">
+                  <start>9</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>9</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="871">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="872">
+                  <start>11</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>11</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="873">
+                  <start>12</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>12</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="874">
+                  <start>13</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>13</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="875">
+                  <start>14</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>14</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="876">
+                  <start>15</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>15</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="877">
+                  <start>17</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>17</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="878">
+                  <start>20</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="879">
+                  <start>21</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>21</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="880">
+                  <start>22</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>22</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="881">
+                  <start>23</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>23</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="882">
+                  <start>24</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>24</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="883">
+                  <start>25</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>25</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="884">
+                  <start>26</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>26</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="885">
+                  <start>27</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>27</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="886">
+                  <start>28</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>28</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="887">
+                  <start>29</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>29</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="888">
+                  <start>30</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>30</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="889">
+                  <start>31</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>31</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="890">
+                  <start>32</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>32</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="891">
+                  <start>79</start>
+                  <length>1</length>
+                  <replacedBy>COLOUR</replacedBy>
+                  <selectionStart>79</selectionStart>
+                  <selectionLength>6</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="892">
+                  <start>80</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>80</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="893">
+                  <start>81</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>81</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="894">
+                  <start>82</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>82</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="895">
+                  <start>83</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>83</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="896">
+                  <start>84</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>84</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="897">
+                  <start>85</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>85</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="898">
+                  <start>86</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>86</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="899">
+                  <start>87</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>87</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="900">
+                  <start>88</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>88</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="901">
+                  <start>89</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>89</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="902">
+                  <start>90</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>90</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="903">
+                  <start>91</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>91</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="904">
+                  <start>92</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>92</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="905">
+                  <start>93</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>93</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="906">
+                  <start>94</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>94</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="907">
+                  <start>95</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>95</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="908">
+                  <start>96</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>96</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="909">
+                  <start>97</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>97</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="910">
+                  <start>98</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>98</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="911">
+                  <start>100</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>100</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="912">
+                  <start>184</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>184</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="913">
+                  <start>185</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>185</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="914">
+                  <start>186</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>186</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="915">
+                  <start>187</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>187</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="916">
+                  <start>188</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>188</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="917">
+                  <start>189</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>189</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="918">
+                  <start>190</start>
+                  <length>1</length>
+                  <replacedBy></replacedBy>
+                  <selectionStart>190</selectionStart>
+                  <selectionLength>0</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+                <field.core.ui.text.StyledTextUndo_-Change id="919">
+                  <start>20</start>
+                  <length>0</length>
+                  <replacedBy>print R, G, B
+
+</replacedBy>
+                  <selectionStart>20</selectionStart>
+                  <selectionLength>15</selectionLength>
+                </field.core.ui.text.StyledTextUndo_-Change>
+              </changes>
+              <redo id="920"/>
+            </field.core.ui.text.StyledTextUndo_-Memo>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="921">
+              <name>shouldAutoComputeRect</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="922">
+              <name>overrides</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.plugins.drawing.SplineComputingOverride id="923">
+              <class>field.core.plugins.drawing.SplineComputingOverride</class>
+              <element reference="791"/>
+            </field.core.plugins.drawing.SplineComputingOverride>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="765"/>
+            <list id="924">
+              <field.core.ui.text.embedded.CustomInsertSystem_-Replace id="925">
+                <from>4</from>
+                <to>5</to>
+                <with>0.8145454</with>
+                <was></was>
+                <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="926">
+                  <value>0.8145454</value>
+                  <when id="927">always</when>
+                  <what id="928">everything</what>
+                  <name>Component:55c12843:1428bcfa2ee:-7fd4.transient</name>
+                  <tagNumber>1</tagNumber>
+                </comp>
+              </field.core.ui.text.embedded.CustomInsertSystem_-Replace>
+              <field.core.ui.text.embedded.CustomInsertSystem_-Replace id="929">
+                <from>10</from>
+                <to>11</to>
+                <with>0.8618182</with>
+                <was></was>
+                <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="930">
+                  <value>0.8618182</value>
+                  <when reference="927"/>
+                  <what reference="928"/>
+                  <name>Component:55c12843:1428bcfa2ee:-7fd3.transient</name>
+                  <tagNumber>2</tagNumber>
+                </comp>
+              </field.core.ui.text.embedded.CustomInsertSystem_-Replace>
+              <field.core.ui.text.embedded.CustomInsertSystem_-Replace id="931">
+                <from>16</from>
+                <to>17</to>
+                <with>0.22181818</with>
+                <was></was>
+                <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="932">
+                  <value>0.22181818</value>
+                  <when reference="927"/>
+                  <what reference="928"/>
+                  <name>Component:55c12843:1428bcfa2ee:-7fd2.transient</name>
+                  <tagNumber>3</tagNumber>
+                </comp>
+              </field.core.ui.text.embedded.CustomInsertSystem_-Replace>
+            </list>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="933">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="767"/>
+            <string>
+baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(130.0, -12.0), None), ) )
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="768"/>
+            <int>20</int>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="934">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="935">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="791"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="936">
+              <name>hasMouseFocus</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="937">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>untitled spline computation</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="771"/>
+            <string>R = 0.8145454
+G = 0.8618182
+B = 0.22181818
+
+
+
+def draw():
+	f = FLine(filled=1, fillColor=Vector4(R, G, B, 0.2))
+	f.circle(50 * _t, 200, 400)
+
+	_self.lines.clear()
+	_self.lines.add(f)
+
+_r = draw
+draw()
+</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="938">
+              <name>dirty</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="939">
+              <name>noFrame</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>false</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="940">
+              <name>python_autoExec_v</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string></string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="941">
+              <name>lines</name>
+              <freezable>true</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.plugins.drawing.SplineComputingOverride_-PLineList id="942" serialization="custom">
+              <unserializable-parents/>
+              <list>
+                <default>
+                  <size>1</size>
+                </default>
+                <int>1</int>
+                <field.core.plugins.drawing.opengl.CachedLine id="943">
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3kAAHNxAH4ACEPIAAB1cQB+AAYAAAAGc3EAfgAIQ3kAAHNxAH4ACEPVh+5zcQB+AAhDYw/cc3EAfgAIQ+CAAHNxAH4ACENIAABzcQB+AAhD4IAAdXEAfgAGAAAABnNxAH4ACEMs8CRzcQB+AAhD4IAAc3EAfgAIQxcAAHNxAH4ACEPVh+5zcQB+AAhDFwAAc3EAfgAIQ8gAAHVxAH4ABgAAAAZzcQB+AAhDFwAAc3EAfgAIQ7p4EnNxAH4ACEMs8CRzcQB+AAhDr4AAc3EAfgAIQ0gAAHNxAH4ACEOvgAB1cQB+AAYAAAAGc3EAfgAIQ2MP3HNxAH4ACEOvgABzcQB+AAhDeQAAc3EAfgAIQ7p4EnNxAH4ACEN5AABzcQB+AAhDyAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0/UIYMP1ygHj5jJE5zcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                </field.core.plugins.drawing.opengl.CachedLine>
+              </list>
+              <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+                <default>
+                  <outer-class reference="923"/>
+                </default>
+              </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+            </field.core.plugins.drawing.SplineComputingOverride_-PLineList>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="944">
+              <name>python_areas</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <map id="945">
+              <entry>
+                <string>python_source_v</string>
+                <field.core.ui.text.rulers.ExecutedAreas_-State id="946">
+                  <areas id="947"/>
+                  <rootHistogram id="948">
+                    <counts id="949"/>
+                    <normalization>0.0</normalization>
+                  </rootHistogram>
+                </field.core.ui.text.rulers.ExecutedAreas_-State>
+              </entry>
+            </map>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="950">
+              <name>alignment_doNotParticipate</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <boolean>true</boolean>
+          </entry>
+        </properties>
+        <rect id="951">
+          <x>240.0</x>
+          <y>390.0</y>
+          <w>200.0</w>
+          <h>20.0</h>
+        </rect>
+        <parents id="952"/>
+        <children id="953">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
     </parents>
-    <children id="574">
-      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="575">
+    <children id="954">
+      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="955">
         <uid>//plugin_python</uid>
-        <parents id="576">
+        <parents id="956">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="577"/>
+        <children id="957"/>
       </field.core.plugins.python.PythonPlugin_-LocalVisualElement>
-      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="578">
+      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="958">
         <uid>//inspector_python</uid>
-        <parents id="579">
+        <parents id="959">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="580"/>
+        <children id="960"/>
       </field.core.plugins.NewInspectorPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="581">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="961">
         <uid>//plugin_binding</uid>
-        <parents id="582">
+        <parents id="962">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="583"/>
+        <children id="963"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.connection.Connections_-LocalVisualElement id="584">
+      <field.core.plugins.connection.Connections_-LocalVisualElement id="964">
         <uid>//plugin_connections</uid>
-        <parents id="585">
+        <parents id="965">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="586"/>
+        <children id="966"/>
       </field.core.plugins.connection.Connections_-LocalVisualElement>
-      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="587">
+      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="967">
         <uid>//plugin_simpleConstraints</uid>
-        <parents id="588">
+        <parents id="968">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="589"/>
+        <children id="969"/>
       </field.core.plugins.SimpleConstraints_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="590">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="970">
         <uid>//plugin_pseudoproperties</uid>
-        <parents id="591">
+        <parents id="971">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="592"/>
+        <children id="972"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="593">
+      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="973">
         <uid>//AudoExecutePython</uid>
-        <parents id="594">
+        <parents id="974">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="595"/>
+        <children id="975"/>
       </field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement>
-      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="596">
+      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="976">
         <uid>//plugin_basicDrawingPlugin</uid>
-        <parents id="597">
+        <parents id="977">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="598"/>
+        <children id="978"/>
       </field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="599">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="979">
         <uid>//plugin_snip</uid>
-        <parents id="600">
+        <parents id="980">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="601"/>
+        <children id="981"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="602">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="982">
         <uid>//plugin_efs</uid>
-        <parents id="603">
+        <parents id="983">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="604"/>
+        <children id="984"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="605">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="985">
         <uid>//plugin_help</uid>
-        <parents id="606">
+        <parents id="986">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="607"/>
+        <children id="987"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="608">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="988">
         <uid>//plugin_tree</uid>
-        <parents id="609">
+        <parents id="989">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="610"/>
+        <children id="990"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="611">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="991">
         <uid>//plugin_fieldgraphics</uid>
-        <parents id="612">
+        <parents id="992">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="613"/>
+        <children id="993"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="614">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="994">
         <uid>//plugin_hierarchy</uid>
-        <parents id="615">
+        <parents id="995">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="616"/>
+        <children id="996"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="617">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="997">
         <uid>//plugin_freehand</uid>
-        <parents id="618">
+        <parents id="998">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="619"/>
+        <children id="999"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="620">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1000">
         <uid>//plugin_freehand</uid>
-        <parents id="621">
+        <parents id="1001">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="622"/>
+        <children id="1002"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="623">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1003">
         <uid>//plugin_jsrscripting</uid>
-        <parents id="624">
+        <parents id="1004">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="625"/>
+        <children id="1005"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="626">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1006">
         <uid>//plugin_osc</uid>
-        <parents id="627">
+        <parents id="1007">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="628"/>
+        <children id="1008"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="629">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1009">
         <uid>//plugin_scrubber</uid>
-        <parents id="630">
+        <parents id="1010">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="631"/>
+        <children id="1011"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="632">
+      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="1012">
         <uid>//topology_plugin</uid>
-        <parents id="633">
+        <parents id="1013">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="634"/>
+        <children id="1014"/>
       </marc.plugins.topology.TopologyPlugin_-LocalVisualElement>
     </children>
   </field.core.StandardFluidSheet_-RootSheetElement>
@@ -3232,17 +5824,24 @@ _r = foo()
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
       <entry>
-        <string>__4226571d:1428b787bae:-7fec</string>
+        <string>__55c12843:1428bcfa2ee:-7fd5</string>
         <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="21">
-          <uid>__4226571d:1428b787bae:-7fec</uid>
+          <uid>__55c12843:1428bcfa2ee:-7fd5</uid>
           <persistantVariables id="22"/>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
       <entry>
-        <string>__438b082f:1428a28af5d:-7fd4</string>
+        <string>__4226571d:1428b787bae:-7fec</string>
         <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="23">
-          <uid>__438b082f:1428a28af5d:-7fd4</uid>
+          <uid>__4226571d:1428b787bae:-7fec</uid>
           <persistantVariables id="24"/>
+        </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
+      </entry>
+      <entry>
+        <string>__438b082f:1428a28af5d:-7fd4</string>
+        <field.core.plugins.python.PythonPlugin_-PythonTextualInformation id="25">
+          <uid>__438b082f:1428a28af5d:-7fd4</uid>
+          <persistantVariables id="26"/>
         </field.core.plugins.python.PythonPlugin_-PythonTextualInformation>
       </entry>
     </right>
