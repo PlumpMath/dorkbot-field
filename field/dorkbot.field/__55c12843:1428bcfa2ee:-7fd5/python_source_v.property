@@ -1,8 +1,6 @@
-string>R = 0.8145454
-G = 0.8618182
-B = 0.71636343
-
-
+string>R = 0.41818187
+G = 0.30545458
+B = 0.26909083
 
 def draw():
 	f = FLine(filled=1, fillColor=Vector4(R, G, B, 0.2))
@@ -12,4 +10,5 @@ def draw():
 	_self.lines.add(f)
 
 _r = draw
+
 draw()
