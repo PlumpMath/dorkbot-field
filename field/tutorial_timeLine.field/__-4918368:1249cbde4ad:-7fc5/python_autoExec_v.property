@@ -1,0 +1,8 @@
+string>
+_self.python_globals_.declare(_self, "bounce")
+_self.python_globals_.declare(_self, "applyToBackground")
+_self.python_globals_.declare(_self, "bounce")
+_self.python_globals_.declare(_self, "applyToBackground")
+_self.python_globals_.declare(_self, "bounce")
+_self.python_globals_.declare(_self, "applyToBackground")
+_self.python_globals_.declare(_self, "bounce")

@@ -1,0 +1,16 @@
+string>
+# while you can drag the red line around with the mouse, Field wouldn't be Field if you couldn't do it from code
+
+# try executing this line by itself
+_self.timeSlider.frame.x=200
+
+# then this one
+_self.timeSlider.frame.x=0
+
+# there's nothing too surprising about this. You can set 'frame.x=something' on anything in the canvas
+
+#for example
+_self.frame.x += 10
+
+#or:
+_self.find["animated time"].frame.y+=10

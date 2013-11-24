@@ -1,0 +1,16 @@
+string>
+
+# we can animate the time slider just like we animate anything else. 
+
+def timeLoop():
+	while 1:
+		for n in range(0, 100):
+			_self.timeSlider.frame.x = n
+			yield 1
+		for n in range(100, 0, -1):
+			_self.timeSlider.frame.x = n
+			yield 1
+	
+# you can drag boxes around even when the slider is executing
+
+_r = timeLoop()
