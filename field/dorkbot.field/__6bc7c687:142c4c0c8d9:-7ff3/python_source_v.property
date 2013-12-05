@@ -1,0 +1,4 @@
+string>def foo():
+	print _t
+
+_r = foo

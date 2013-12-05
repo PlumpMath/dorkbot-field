@@ -1,0 +1,18 @@
+string>R = 0.9963636
+
+
+
+def goo():
+	f = FLine()
+	f(filled=1)
+	f(fillColor=Vector4(R, 0, 0, 0.1))
+
+	f.circle(50 * _t, 200, 200)
+
+	_self.lines.clear()
+	_self.lines.add(f)
+
+
+
+_r = goo
+goo()
