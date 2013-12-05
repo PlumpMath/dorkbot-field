@@ -1,6 +1,6 @@
 string>
 
-# we've seen properties associated with lines. They can be associated with points � vertices � on lines as well
+# we've seen properties associated with lines. They can be associated with points ??? vertices ??? on lines as well
 
 p = FLine().moveTo(50,50)
 

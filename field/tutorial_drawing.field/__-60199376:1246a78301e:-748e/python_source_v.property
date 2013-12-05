@@ -17,4 +17,4 @@ someLine.multilineWidth_v=400
 _self.lines.clear()
 _self.lines.add(someLine)
 
-# if you click carefully on the left hand side of the labels in the canvas (for example the one that says "three ways of doing text") you'll see that we use this method to write them as well � it's all code!
+# if you click carefully on the left hand side of the labels in the canvas (for example the one that says "three ways of doing text") you'll see that we use this method to write them as well ??? it's all code!

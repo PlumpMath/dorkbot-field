@@ -4,7 +4,7 @@ string>
 # before you do anything, you need a box to draw thing in. You get a new "Spline Drawer" from the right click menu.
 # then we need some code in the box that draws things.
 
-# we need an object � a PLine � to hold the drawing
+# we need an object ??? a PLine ??? to hold the drawing
 line = FLine()
 
 # then we draw into it
