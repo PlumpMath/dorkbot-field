@@ -1,7 +1,7 @@
 string>
 
 
-# _r can be set to other things. Of particular interest: a python generator � very, very useful for animation
+# _r can be set to other things. Of particular interest: a python generator ??? very, very useful for animation
 
 def aGenerator():
 	print "hello"

@@ -29,48 +29,48 @@
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="11">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="12">
               <name>creationToken</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>time</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="13">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="12">
               <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="14">
+            <field.core.windowing.components.PlainDraggableComponent id="13">
               <class>field.core.windowing.components.PlainDraggableComponent</class>
               <visualElement reference="3"/>
             </field.core.windowing.components.PlainDraggableComponent>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="15">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="14">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="16">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="15">
               <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <string>timeSlider</string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="17">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="16">
               <name>dirty</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>true</boolean>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="17">
+              <name>__textEditorAnnotationPackage</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="18">
@@ -109,8 +109,8 @@
           </entry>
         </properties>
         <rect id="29">
-          <x>465.0</x>
-          <y>-30.0</y>
+          <x>-1.0</x>
+          <y>0.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
@@ -313,30 +313,23 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-1.0, 5.0)
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="72">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="73">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="58"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="74">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="73">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="74">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="58"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="75">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -362,6 +355,13 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="77">
@@ -469,7 +469,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="105">
                   <areas id="106"/>
                   <rootHistogram id="107">
@@ -479,7 +479,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="109">
                   <areas id="110"/>
                   <rootHistogram id="111">
@@ -509,7 +509,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="121">
                   <areas id="122"/>
                   <rootHistogram id="123">
@@ -519,7 +519,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="125">
                   <areas id="126"/>
                   <rootHistogram id="127">
@@ -705,23 +705,30 @@ _r = keepGoing
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="167">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="168">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="155"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="169">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="168">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="169">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="155"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="170">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -747,13 +754,6 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="172">
@@ -861,7 +861,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="200">
                   <areas id="201"/>
                   <rootHistogram id="202">
@@ -871,7 +871,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="204">
                   <areas id="205"/>
                   <rootHistogram id="206">
@@ -901,7 +901,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="216">
                   <areas id="217"/>
                   <rootHistogram id="218">
@@ -911,7 +911,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="220">
                   <areas id="221"/>
                   <rootHistogram id="222">
@@ -1105,7 +1105,7 @@ print &quot;any old print thing&quot;
             <string>
 
 
-# _r can be set to other things. Of particular interest: a python generator � very, very useful for animation
+# _r can be set to other things. Of particular interest: a python generator ??? very, very useful for animation
 
 def aGenerator():
 	print &quot;hello&quot;
@@ -1240,30 +1240,23 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-4.0, 20.0
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="291">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="292">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="280"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="293">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="292">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="293">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="280"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="294">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1291,6 +1284,13 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="296">
@@ -2206,7 +2206,7 @@ _self.lines.clear()</stringAtExecution>
             <list id="446"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="17"/>
             <null/>
           </entry>
           <entry>
@@ -2297,6 +2297,10 @@ _self.python_globals_.declare(_self, &quot;foo&quot;)
         <uid>__4226571d:1428b787bae:-7fec</uid>
         <class>field.core.dispatch.VisualElement</class>
         <properties id="463">
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
+            <int>29</int>
+          </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="157"/>
             <field.core.ui.text.StyledTextUndo_-Memo id="464">
@@ -2838,20 +2842,8 @@ _self.python_globals_.declare(_self, &quot;foo&quot;)
             </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="445"/>
-            <list id="543"/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
-            <null/>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="71"/>
-            <int>29</int>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
-            <field.core.windowing.components.DraggableComponent id="544">
+            <field.core.windowing.components.DraggableComponent id="543">
               <class>field.core.windowing.components.DraggableComponent</class>
               <visualElement reference="462"/>
             </field.core.windowing.components.DraggableComponent>
@@ -2875,8 +2867,16 @@ _r = foo()
             <boolean>false</boolean>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="445"/>
+            <list id="544"/>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="452"/>
             <string></string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="17"/>
+            <null/>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="453"/>
@@ -4380,7 +4380,7 @@ _r = foo()
             <list id="766"/>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="11"/>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="17"/>
             <null/>
           </entry>
           <entry>
@@ -4404,18 +4404,22 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(52.0, 3.0)
             <int>116</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="769">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
+            <field.core.windowing.components.PlainDraggableComponent id="769">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="553"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="770">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
-            <field.core.windowing.components.PlainDraggableComponent id="770">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="553"/>
-            </field.core.windowing.components.PlainDraggableComponent>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
+            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="771">
@@ -4428,10 +4432,6 @@ f.circle(50, 200, 200)
 _self.lines.clear()
 _self.lines.add(f)
 </string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
-            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
@@ -4987,7 +4987,7 @@ _self.python_globals_.declare(_self, &quot;f&quot;)
                 <field.core.ui.text.StyledTextUndo_-Change id="860">
                   <start>0</start>
                   <length>0</length>
-                  <replacedBy>COLOUR = 
+                  <replacedBy>COLOUR = ???
 </replacedBy>
                   <selectionStart>0</selectionStart>
                   <selectionLength>11</selectionLength>
@@ -5458,7 +5458,7 @@ _self.python_globals_.declare(_self, &quot;f&quot;)
                 <from>4</from>
                 <to>5</to>
                 <with>0.41818187</with>
-                <was></was>
+                <was>???</was>
                 <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="929">
                   <value>0.41818187</value>
                   <when id="930">always</when>
@@ -5471,7 +5471,7 @@ _self.python_globals_.declare(_self, &quot;f&quot;)
                 <from>10</from>
                 <to>11</to>
                 <with>0.30545458</with>
-                <was></was>
+                <was>???</was>
                 <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="933">
                   <value>0.30545458</value>
                   <when reference="930"/>
@@ -5484,7 +5484,7 @@ _self.python_globals_.declare(_self, &quot;f&quot;)
                 <from>16</from>
                 <to>17</to>
                 <with>0.26909083</with>
-                <was></was>
+                <was>???</was>
                 <comp class="field.core.ui.text.embedded.MinimalSlider$Component" id="935">
                   <value>0.26909083</value>
                   <when reference="930"/>
@@ -5514,20 +5514,27 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(130.0, -12
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="937">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="938">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="791"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="939">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="938">
-              <name>localView</name>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="940">
+              <name>name</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="939">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="791"/>
-            </field.core.windowing.components.PlainDraggableComponent>
+            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="771"/>
@@ -5546,13 +5553,6 @@ _r = draw
 
 draw()
 </string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="940">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="941">
