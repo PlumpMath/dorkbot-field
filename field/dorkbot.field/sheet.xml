@@ -109,8 +109,8 @@
           </entry>
         </properties>
         <rect id="29">
-          <x>505.0</x>
-          <y>387.0</y>
+          <x>465.0</x>
+          <y>-30.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
@@ -313,23 +313,30 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-1.0, 5.0)
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="72">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="73">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="58"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="74">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="73">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="74">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="58"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="75">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -355,13 +362,6 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="76">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="77">
@@ -390,7 +390,7 @@ _self.noFrame=1
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="81">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0ADF0aGlzIGlzIGEgYm94IHdpdGggY29kZSBpbiBpdCwgY2xpY2sgdG8gc2VsZWN0IGl0c3EAfgAUdAAGZm9udF92c3IADWphdmEuYXd0LkZvbnTFoTXmzN5WcwMABkkAGWZvbnRTZXJpYWxpemVkRGF0YVZlcnNpb25GAAlwb2ludFNpemVJAARzaXplSQAFc3R5bGVMABRmUmVxdWVzdGVkQXR0cmlidXRlc3QAFUxqYXZhL3V0aWwvSGFzaHRhYmxlO0wABG5hbWVxAH4AFXhwAAAAAUFwAAAAAAAPAAAAAHB0AAlHaWxsIFNhbnN4eAB4c3EAfgARP0AAAAAAAAx3CAAAABAAAAAEc3EAfgAUdAAQb2Zmc2V0RnJvbVNvdXJjZXNyABlmaWVsZC5tYXRoLmxpbmFsZy5WZWN0b3IyfQ4k0gxu4sQCAAJGAAF4RgABeXhwAAAAAAAAAABzcQB+ABR0ABVjb250YWluc011bHRpbGluZVRleHRzcQB+ABgAAAABc3EAfgAUdAAMdG90YWxPcGFjaXR5c3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHEAfgAJP+AAAAAAAABzcQB+ABR0AA9zaG91bGRIaWdobGlnaHRzcgARamF2YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHAAeAA=</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAAKdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAACnQAAW14c3EAfgAEAAAAAXcEAAAACnNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0ADF0aGlzIGlzIGEgYm94IHdpdGggY29kZSBpbiBpdCwgY2xpY2sgdG8gc2VsZWN0IGl0c3EAfgAUdAAGZm9udF92c3IADWphdmEuYXd0LkZvbnTFoTXmzN5WcwMABkkAGWZvbnRTZXJpYWxpemVkRGF0YVZlcnNpb25GAAlwb2ludFNpemVJAARzaXplSQAFc3R5bGVMABRmUmVxdWVzdGVkQXR0cmlidXRlc3QAFUxqYXZhL3V0aWwvSGFzaHRhYmxlO0wABG5hbWVxAH4AFXhwAAAAAUFwAAAAAAAPAAAAAHB0AAlHaWxsIFNhbnN4eAB4c3EAfgARP0AAAAAAAAx3CAAAABAAAAAEc3EAfgAUdAAQb2Zmc2V0RnJvbVNvdXJjZXNyABlmaWVsZC5tYXRoLmxpbmFsZy5WZWN0b3IyfQ4k0gxu4sQCAAJGAAF4RgABeXhwAAAAAAAAAABzcQB+ABR0ABVjb250YWluc011bHRpbGluZVRleHRzcQB+ABgAAAABc3EAfgAUdAAMdG90YWxPcGFjaXR5c3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHEAfgAJP+AAAAAAAABzcQB+ABR0AA9zaG91bGRIaWdobGlnaHRzcgARamF2YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHAAeAA=</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -469,7 +469,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="105">
                   <areas id="106"/>
                   <rootHistogram id="107">
@@ -479,7 +479,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="109">
                   <areas id="110"/>
                   <rootHistogram id="111">
@@ -509,7 +509,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="121">
                   <areas id="122"/>
                   <rootHistogram id="123">
@@ -519,7 +519,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="125">
                   <areas id="126"/>
                   <rootHistogram id="127">
@@ -705,30 +705,23 @@ _r = keepGoing
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="167">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="168">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="155"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="169">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="168">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="169">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="155"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="170">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -754,6 +747,13 @@ _self.lines.add(text)
 
 _self.noFrame=1
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="171">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="172">
@@ -790,7 +790,7 @@ _self.noFrame=1
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="177">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0AGhpZiB0aGlzIGJlZ2lucyB0byBsb29rIGxpa2UgYSB0aW1lLWxpbmUgdGhlbiB0aGF0J3MgYmVjYXVzZSBpdCBpcy4gT25seSBpdCdzIGEgdGltZWxpbmUgd2l0aCBjb2RlIGluIGl0LnNxAH4AFHQABmZvbnRfdnNyAA1qYXZhLmF3dC5Gb250xaE15szeVnMDAAZJABlmb250U2VyaWFsaXplZERhdGFWZXJzaW9uRgAJcG9pbnRTaXplSQAEc2l6ZUkABXN0eWxlTAAUZlJlcXVlc3RlZEF0dHJpYnV0ZXN0ABVMamF2YS91dGlsL0hhc2h0YWJsZTtMAARuYW1lcQB+ABV4cAAAAAFBcAAAAAAADwAAAABwdAAJR2lsbCBTYW5zeHgAeHNxAH4AET9AAAAAAAAMdwgAAAAQAAAABHNxAH4AFHQAEG9mZnNldEZyb21Tb3VyY2VzcgAZZmllbGQubWF0aC5saW5hbGcuVmVjdG9yMn0OJNIMbuLEAgACRgABeEYAAXl4cAAAAAAAAAAAc3EAfgAUdAAVY29udGFpbnNNdWx0aWxpbmVUZXh0c3EAfgAYAAAAAXNxAH4AFHQADHRvdGFsT3BhY2l0eXNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4ACT/gAAAAAAAAc3EAfgAUdAAPc2hvdWxkSGlnaGxpZ2h0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAHgA</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAAKdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAACnQAAW14c3EAfgAEAAAAAXcEAAAACnNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0AGhpZiB0aGlzIGJlZ2lucyB0byBsb29rIGxpa2UgYSB0aW1lLWxpbmUgdGhlbiB0aGF0J3MgYmVjYXVzZSBpdCBpcy4gT25seSBpdCdzIGEgdGltZWxpbmUgd2l0aCBjb2RlIGluIGl0LnNxAH4AFHQABmZvbnRfdnNyAA1qYXZhLmF3dC5Gb250xaE15szeVnMDAAZJABlmb250U2VyaWFsaXplZERhdGFWZXJzaW9uRgAJcG9pbnRTaXplSQAEc2l6ZUkABXN0eWxlTAAUZlJlcXVlc3RlZEF0dHJpYnV0ZXN0ABVMamF2YS91dGlsL0hhc2h0YWJsZTtMAARuYW1lcQB+ABV4cAAAAAFBcAAAAAAADwAAAABwdAAJR2lsbCBTYW5zeHgAeHNxAH4AET9AAAAAAAAMdwgAAAAQAAAABHNxAH4AFHQAEG9mZnNldEZyb21Tb3VyY2VzcgAZZmllbGQubWF0aC5saW5hbGcuVmVjdG9yMn0OJNIMbuLEAgACRgABeEYAAXl4cAAAAAAAAAAAc3EAfgAUdAAVY29udGFpbnNNdWx0aWxpbmVUZXh0c3EAfgAYAAAAAXNxAH4AFHQADHRvdGFsT3BhY2l0eXNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4ACT/gAAAAAAAAc3EAfgAUdAAPc2hvdWxkSGlnaGxpZ2h0c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAHgA</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -861,7 +861,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>documentation</string>
+                <string>fragmentShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="200">
                   <areas id="201"/>
                   <rootHistogram id="202">
@@ -871,7 +871,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>fragmentShader_v</string>
+                <string>documentation</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="204">
                   <areas id="205"/>
                   <rootHistogram id="206">
@@ -901,7 +901,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>tweak_v</string>
+                <string>geometryShader_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="216">
                   <areas id="217"/>
                   <rootHistogram id="218">
@@ -911,7 +911,7 @@ _self.lines.clear()</stringAtExecution>
                 </field.core.ui.text.rulers.ExecutedAreas_-State>
               </entry>
               <entry>
-                <string>geometryShader_v</string>
+                <string>tweak_v</string>
                 <field.core.ui.text.rulers.ExecutedAreas_-State id="220">
                   <areas id="221"/>
                   <rootHistogram id="222">
@@ -1240,23 +1240,30 @@ baseTool( node=Direct(0, 0, &quot;n&quot;), coords=(Rel(None, Vector2(-4.0, 20.0
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="291">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="292">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="280"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="293">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="292">
+              <name>localView</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <field.core.windowing.components.PlainDraggableComponent id="293">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="280"/>
+            </field.core.windowing.components.PlainDraggableComponent>
+          </entry>
+          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="294">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>multi line text</string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
               <name>python_source_v</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
@@ -1286,13 +1293,6 @@ _self.noFrame=1
 </string>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="295">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>multi line text</string>
-          </entry>
-          <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="296">
               <name>dirty</name>
               <freezable>false</freezable>
@@ -1319,7 +1319,7 @@ _self.noFrame=1
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="300">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAAAXQAAW14c3EAfgAEAAAAAXcEAAAAAXNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0APBKdXN0IHRvIHRoZSBsZWZ0IG9mIHRoaXMgdGV4dCB0aGVyZSdzIGEgcmVkIGxpbmUgdGhhdCBjYW4gYmUgdXNlZCB0byBleGVjdXRlIGJveGVzIGJ5IGRyYWdnaW5nIGl0Lgo8cD48cD4KWW91IG1pZ2h0IGJlIGFibGUgdG8gZ3JhYiB0aGUgbGluZSBmcm9tIGhlcmUsIG9yIHlvdSBjYW4gcGFuIG92ZXIgYSBiaXQgdXNpbmcgdGhlIG1pZGRsZSBtb3VzZSBidXR0b24gKG9yIGEgZHJhZyBnZXN0dXJlIG9uIGEgbGFwdG9wKS5zcQB+ABR0AAZmb250X3ZzcgANamF2YS5hd3QuRm9udMWhNebM3lZzAwAGSQAZZm9udFNlcmlhbGl6ZWREYXRhVmVyc2lvbkYACXBvaW50U2l6ZUkABHNpemVJAAVzdHlsZUwAFGZSZXF1ZXN0ZWRBdHRyaWJ1dGVzdAAVTGphdmEvdXRpbC9IYXNodGFibGU7TAAEbmFtZXEAfgAVeHAAAAABQXAAAAAAAA8AAAAAcHQACUdpbGwgU2Fuc3h4AHhzcQB+ABE/QAAAAAAADHcIAAAAEAAAAARzcQB+ABR0ABBvZmZzZXRGcm9tU291cmNlc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjJ9DiTSDG7ixAIAAkYAAXhGAAF5eHAAAAAAAAAAAHNxAH4AFHQAFWNvbnRhaW5zTXVsdGlsaW5lVGV4dHNxAH4AGAAAAAFzcQB+ABR0AAx0b3RhbE9wYWNpdHlzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+AAk/4AAAAAAAAHNxAH4AFHQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAAKdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ACAAAAAB4c3EAfgAEAAAAAXcEAAAACnQAAW14c3EAfgAEAAAAAXcEAAAACnNyAA9maWVsZC51dGlsLkRpY3Q+iMAnAo/d3gIAAUwACmRpY3Rpb25hcnlxAH4AAnhwc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAADc3IAFGZpZWxkLnV0aWwuRGljdCRQcm9wARfzBWhsSgQCAAFMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0ABBtdWx0aWxpbmVXaWR0aF92c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4ACQAAASxzcQB+ABR0AAZ0ZXh0X3Z0APBKdXN0IHRvIHRoZSBsZWZ0IG9mIHRoaXMgdGV4dCB0aGVyZSdzIGEgcmVkIGxpbmUgdGhhdCBjYW4gYmUgdXNlZCB0byBleGVjdXRlIGJveGVzIGJ5IGRyYWdnaW5nIGl0Lgo8cD48cD4KWW91IG1pZ2h0IGJlIGFibGUgdG8gZ3JhYiB0aGUgbGluZSBmcm9tIGhlcmUsIG9yIHlvdSBjYW4gcGFuIG92ZXIgYSBiaXQgdXNpbmcgdGhlIG1pZGRsZSBtb3VzZSBidXR0b24gKG9yIGEgZHJhZyBnZXN0dXJlIG9uIGEgbGFwdG9wKS5zcQB+ABR0AAZmb250X3ZzcgANamF2YS5hd3QuRm9udMWhNebM3lZzAwAGSQAZZm9udFNlcmlhbGl6ZWREYXRhVmVyc2lvbkYACXBvaW50U2l6ZUkABHNpemVJAAVzdHlsZUwAFGZSZXF1ZXN0ZWRBdHRyaWJ1dGVzdAAVTGphdmEvdXRpbC9IYXNodGFibGU7TAAEbmFtZXEAfgAVeHAAAAABQXAAAAAAAA8AAAAAcHQACUdpbGwgU2Fuc3h4AHhzcQB+ABE/QAAAAAAADHcIAAAAEAAAAARzcQB+ABR0ABBvZmZzZXRGcm9tU291cmNlc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjJ9DiTSDG7ixAIAAkYAAXhGAAF5eHAAAAAAAAAAAHNxAH4AFHQAFWNvbnRhaW5zTXVsdGlsaW5lVGV4dHNxAH4AGAAAAAFzcQB+ABR0AAx0b3RhbE9wYWNpdHlzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+AAk/4AAAAAAAAHNxAH4AFHQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -4404,22 +4404,18 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(52.0, 3.0)
             <int>116</int>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
-            <field.core.windowing.components.PlainDraggableComponent id="769">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="553"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="770">
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="769">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
-            <string>untitled spline computation</string>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="447"/>
+            <field.core.windowing.components.PlainDraggableComponent id="770">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="553"/>
+            </field.core.windowing.components.PlainDraggableComponent>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="771">
@@ -4432,6 +4428,10 @@ f.circle(50, 200, 200)
 _self.lines.clear()
 _self.lines.add(f)
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty reference="450"/>
+            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="451"/>
@@ -4457,7 +4457,7 @@ _self.lines.add(f)
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="775">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3oAAHNxAH4ACENIAAB1cQB+AAYAAAAGc3EAfgAIQ3oAAHNxAH4ACENjnT9zcQB+AAhDY50/c3EAfgAIQ3oAAHNxAH4ACENIAABzcQB+AAhDegAAdXEAfgAGAAAABnNxAH4ACEMsYsFzcQB+AAhDegAAc3EAfgAIQxYAAHNxAH4ACENjnT9zcQB+AAhDFgAAc3EAfgAIQ0gAAHVxAH4ABgAAAAZzcQB+AAhDFgAAc3EAfgAIQyxiwXNxAH4ACEMsYsFzcQB+AAhDFgAAc3EAfgAIQ0gAAHNxAH4ACEMWAAB1cQB+AAYAAAAGc3EAfgAIQ2OdP3NxAH4ACEMWAABzcQB+AAhDegAAc3EAfgAIQyxiwXNxAH4ACEN6AABzcQB+AAhDSAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0AAAAAAAAAAAAAAABzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAKdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3oAAHNxAH4ACENIAAB1cQB+AAYAAAAGc3EAfgAIQ3oAAHNxAH4ACENjnT9zcQB+AAhDY50/c3EAfgAIQ3oAAHNxAH4ACENIAABzcQB+AAhDegAAdXEAfgAGAAAABnNxAH4ACEMsYsFzcQB+AAhDegAAc3EAfgAIQxYAAHNxAH4ACENjnT9zcQB+AAhDFgAAc3EAfgAIQ0gAAHVxAH4ABgAAAAZzcQB+AAhDFgAAc3EAfgAIQyxiwXNxAH4ACEMsYsFzcQB+AAhDFgAAc3EAfgAIQ0gAAHNxAH4ACEMWAAB1cQB+AAYAAAAGc3EAfgAIQ2OdP3NxAH4ACEMWAABzcQB+AAhDegAAc3EAfgAIQyxiwXNxAH4ACEN6AABzcQB+AAhDSAAAeHNxAH4ABAAAAAV3BAAAAAp0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAKc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAAAx3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAADHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0AAAAAAAAAAAAAAABzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -5510,31 +5510,24 @@ baseTool( node=Direct(0, 4, &quot;n&quot;), coords=(Rel(None, Vector2(130.0, -12
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="768"/>
-            <int>176</int>
+            <int>175</int>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="937">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.PlainDraggableComponent id="938">
-              <class>field.core.windowing.components.PlainDraggableComponent</class>
-              <visualElement reference="791"/>
-            </field.core.windowing.components.PlainDraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="939">
               <name>hasMouseFocus</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
             <boolean>false</boolean>
           </entry>
           <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="940">
-              <name>name</name>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="938">
+              <name>localView</name>
               <freezable>false</freezable>
             </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>untitled spline computation</string>
+            <field.core.windowing.components.PlainDraggableComponent id="939">
+              <class>field.core.windowing.components.PlainDraggableComponent</class>
+              <visualElement reference="791"/>
+            </field.core.windowing.components.PlainDraggableComponent>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty reference="771"/>
@@ -5553,6 +5546,13 @@ _r = draw
 
 draw()
 </string>
+          </entry>
+          <entry>
+            <field.core.dispatch.iVisualElement_-VisualElementProperty id="940">
+              <name>name</name>
+              <freezable>false</freezable>
+            </field.core.dispatch.iVisualElement_-VisualElementProperty>
+            <string>untitled spline computation</string>
           </entry>
           <entry>
             <field.core.dispatch.iVisualElement_-VisualElementProperty id="941">
@@ -5588,7 +5588,7 @@ draw()
                 </default>
                 <int>1</int>
                 <field.core.plugins.drawing.opengl.CachedLine id="946">
-                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAFdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3oAAHNxAH4ACEPIAAB1cQB+AAYAAAAGc3EAfgAIQ3oAAHNxAH4ACEPVzp9zcQB+AAhDY50/c3EAfgAIQ+EAAHNxAH4ACENIAABzcQB+AAhD4QAAdXEAfgAGAAAABnNxAH4ACEMsYsFzcQB+AAhD4QAAc3EAfgAIQxYAAHNxAH4ACEPVzp9zcQB+AAhDFgAAc3EAfgAIQ8gAAHVxAH4ABgAAAAZzcQB+AAhDFgAAc3EAfgAIQ7oxYXNxAH4ACEMsYsFzcQB+AAhDrwAAc3EAfgAIQ0gAAHNxAH4ACEOvAAB1cQB+AAYAAAAGc3EAfgAIQ2OdP3NxAH4ACEOvAABzcQB+AAhDegAAc3EAfgAIQ7oxYXNxAH4ACEN6AABzcQB+AAhDyAAAeHNxAH4ABAAAAAV3BAAAAAV0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAFc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAABB3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAAEHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAQdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0+1hvvPpxkiz6JxkZzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
+                  <compressedCachedLine>rO0ABXNyAExmaWVsZC5jb3JlLnBsdWdpbnMuZHJhd2luZy5vcGVuZ2wuQ2FjaGVkTGluZUNvbXByZXNzaW9uJENvbXByZXNzZWRDYWNoZWRMaW5l67xx3tXTo6UCAARMAAdhbGxBcmdzdAAQTGphdmEvdXRpbC9MaXN0O0wACmFsbE1ldGhvZHNxAH4AAUwADWFsbFByb3BlcnRpZXNxAH4AAUwACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDt4cHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAAFdwQAAAAKdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAAnNyAA9qYXZhLmxhbmcuRmxvYXTa7cmi2zzw7AIAAUYABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQ3ZAAHNxAH4ACEPIAAB1cQB+AAYAAAAGc3EAfgAIQ3ZAAHNxAH4ACEPUxYdzcQB+AAhDYYsNc3EAfgAIQ98gAHNxAH4ACENIAABzcQB+AAhD3yAAdXEAfgAGAAAABnNxAH4ACEMudPNzcQB+AAhD3yAAc3EAfgAIQxnAAHNxAH4ACEPUxYdzcQB+AAhDGcAAc3EAfgAIQ8gAAHVxAH4ABgAAAAZzcQB+AAhDGcAAc3EAfgAIQ7s6eXNxAH4ACEMudPNzcQB+AAhDsOAAc3EAfgAIQ0gAAHNxAH4ACEOw4AB1cQB+AAYAAAAGc3EAfgAIQ2GLDXNxAH4ACEOw4ABzcQB+AAhDdkAAc3EAfgAIQ7s6eXNxAH4ACEN2QABzcQB+AAhDyAAAeHNxAH4ABAAAAAV3BAAAAAp0AAFtdAABY3EAfgAqcQB+ACpxAH4AKnhzcQB+AAQAAAAFdwQAAAAKc3IAD2ZpZWxkLnV0aWwuRGljdD6IwCcCj93eAgABTAAKZGljdGlvbmFyeXEAfgACeHBzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAAHgAc3EAfgAsc3EAfgAuP0AAAAAAAAx3CAAAABAAAAAAeABzcQB+ACxzcQB+AC4/QAAAAAAADHcIAAAAEAAAAAB4AHNxAH4ALHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAAHgAeHNxAH4ALj9AAAAAAAAMdwgAAAAQAAAAA3NyABRmaWVsZC51dGlsLkRpY3QkUHJvcAEX8wVobEoEAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAJZmlsbENvbG9yc3IAGWZpZWxkLm1hdGgubGluYWxnLlZlY3RvcjR5a9QYZbGUEwIAAHhyABhmaWVsZC5tYXRoLmxpbmFsZy5UdXBsZTT56QaGk53S3AIABEYAAXdGAAF4RgABeUYAAXp4cD5MzM0+1hvvPpxkiz6JxkZzcQB+ADp0AAZmaWxsZWRzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHEAfgAJAAAAAXNxAH4AOnQAD3Nob3VsZEhpZ2hsaWdodHNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAB4AA==</compressedCachedLine>
                 </field.core.plugins.drawing.opengl.CachedLine>
               </list>
               <field.core.plugins.drawing.SplineComputingOverride_-PLineList>
@@ -5729,14 +5729,14 @@ draw()
         <children id="996"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
       <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="997">
-        <uid>//plugin_hierarchy</uid>
+        <uid>//plugin_gstreamer</uid>
         <parents id="998">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
         <children id="999"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
       <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1000">
-        <uid>//plugin_freehand</uid>
+        <uid>//plugin_hierarchy</uid>
         <parents id="1001">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
@@ -5750,33 +5750,75 @@ draw()
         <children id="1005"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
       <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1006">
-        <uid>//plugin_jsrscripting</uid>
+        <uid>//plugin_freehand</uid>
         <parents id="1007">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
         <children id="1008"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
       <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1009">
-        <uid>//plugin_osc</uid>
+        <uid>//plugin_jsrscripting</uid>
         <parents id="1010">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
         <children id="1011"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
       <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1012">
-        <uid>//plugin_scrubber</uid>
+        <uid>//plugin_max</uid>
         <parents id="1013">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
         <children id="1014"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="1015">
-        <uid>//topology_plugin</uid>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1015">
+        <uid>//plugin_online</uid>
         <parents id="1016">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
         <children id="1017"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1018">
+        <uid>//plugin_osc</uid>
+        <parents id="1019">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1020"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1021">
+        <uid>//plugin_scrubber</uid>
+        <parents id="1022">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1023"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1024">
+        <uid>//plugin_syphon</uid>
+        <parents id="1025">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1026"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
+      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="1027">
+        <uid>//topology_plugin</uid>
+        <parents id="1028">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1029"/>
       </marc.plugins.topology.TopologyPlugin_-LocalVisualElement>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1030">
+        <uid>//plugin_typing</uid>
+        <parents id="1031">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1032"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="1033">
+        <uid>//plugin_wrapintransformplugin</uid>
+        <parents id="1034">
+          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
+        </parents>
+        <children id="1035"/>
+      </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
     </children>
   </field.core.StandardFluidSheet_-RootSheetElement>
   <field.namespace.generic.Generics_-Pair id="1">
@@ -5915,8 +5957,26 @@ draw()
   <field.namespace.generic.Generics_-Pair id="1">
     <left class="string">version0</left>
   </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
+  </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
+  </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
+  </field.namespace.generic.Generics_-Pair>
   <list id="1"/>
   <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
+  </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
     <left class="string">version_1</left>
+  </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
+  </field.namespace.generic.Generics_-Pair>
+  <field.namespace.generic.Generics_-Pair id="1">
+    <left class="string">version0</left>
   </field.namespace.generic.Generics_-Pair>
 </object-stream>
