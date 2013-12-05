@@ -109,8 +109,8 @@
           </entry>
         </properties>
         <rect id="29">
-          <x>37.0</x>
-          <y>0.0</y>
+          <x>70.0</x>
+          <y>1.0</y>
           <w>0.0</w>
           <h>0.0</h>
         </rect>
@@ -119,281 +119,189 @@
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </children>
       </field.core.dispatch.VisualElement>
-      <field.core.dispatch.VisualElement id="32">
-        <uid>__-4ff2e18d:142c41f3529:-7ff6</uid>
-        <class>field.core.dispatch.VisualElement</class>
-        <properties id="33">
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="34">
-              <name>python_undoStack</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.ui.text.StyledTextUndo_-Memo id="35">
-              <changes id="36"/>
-              <redo id="37"/>
-            </field.core.ui.text.StyledTextUndo_-Memo>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="38">
-              <name>overrides</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.dispatch.iVisualElementOverrides_-DefaultOverride id="39">
-              <class>field.core.dispatch.iVisualElementOverrides$DefaultOverride</class>
-              <element reference="32"/>
-            </field.core.dispatch.iVisualElementOverrides_-DefaultOverride>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="40">
-              <name>localView</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <field.core.windowing.components.DraggableComponent id="41">
-              <class>field.core.windowing.components.DraggableComponent</class>
-              <visualElement reference="32"/>
-            </field.core.windowing.components.DraggableComponent>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="42">
-              <name>name</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string>XX</string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="43">
-              <name>dirty</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <boolean>true</boolean>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="44">
-              <name>python_autoExec_v</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <string></string>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="45">
-              <name>python_areas</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <map id="46">
-              <entry>
-                <string>python_source_v</string>
-                <field.core.ui.text.rulers.ExecutedAreas_-State id="47">
-                  <areas id="48"/>
-                  <rootHistogram id="49">
-                    <counts id="50"/>
-                    <normalization>0.0</normalization>
-                  </rootHistogram>
-                </field.core.ui.text.rulers.ExecutedAreas_-State>
-              </entry>
-            </map>
-          </entry>
-          <entry>
-            <field.core.dispatch.iVisualElement_-VisualElementProperty id="51">
-              <name>__textEditorAnnotationPackage</name>
-              <freezable>false</freezable>
-            </field.core.dispatch.iVisualElement_-VisualElementProperty>
-            <null/>
-          </entry>
-        </properties>
-        <rect id="52">
-          <x>106.0</x>
-          <y>94.0</y>
-          <w>50.0</w>
-          <h>50.0</h>
-        </rect>
-        <parents id="53"/>
-        <children id="54">
-          <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
-        </children>
-      </field.core.dispatch.VisualElement>
     </parents>
-    <children id="55">
-      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="56">
+    <children id="32">
+      <field.core.plugins.python.PythonPlugin_-LocalVisualElement id="33">
         <uid>//plugin_python</uid>
-        <parents id="57">
+        <parents id="34">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="58"/>
+        <children id="35"/>
       </field.core.plugins.python.PythonPlugin_-LocalVisualElement>
-      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="59">
+      <field.core.plugins.NewInspectorPlugin_-LocalVisualElement id="36">
         <uid>//inspector_python</uid>
-        <parents id="60">
+        <parents id="37">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="61"/>
+        <children id="38"/>
       </field.core.plugins.NewInspectorPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="62">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="39">
         <uid>//plugin_binding</uid>
-        <parents id="63">
+        <parents id="40">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="64"/>
+        <children id="41"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.connection.Connections_-LocalVisualElement id="65">
+      <field.core.plugins.connection.Connections_-LocalVisualElement id="42">
         <uid>//plugin_connections</uid>
-        <parents id="66">
+        <parents id="43">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="67"/>
+        <children id="44"/>
       </field.core.plugins.connection.Connections_-LocalVisualElement>
-      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="68">
+      <field.core.plugins.SimpleConstraints_-LocalVisualElement id="45">
         <uid>//plugin_simpleConstraints</uid>
-        <parents id="69">
+        <parents id="46">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="70"/>
+        <children id="47"/>
       </field.core.plugins.SimpleConstraints_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="71">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="48">
         <uid>//plugin_pseudoproperties</uid>
-        <parents id="72">
+        <parents id="49">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="73"/>
+        <children id="50"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="74">
+      <field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement id="51">
         <uid>//AudoExecutePython</uid>
-        <parents id="75">
+        <parents id="52">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="76"/>
+        <children id="53"/>
       </field.core.plugins.autoexecute.AutoExecutePythonPlugin_-LocalVisualElement>
-      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="77">
+      <field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement id="54">
         <uid>//plugin_basicDrawingPlugin</uid>
-        <parents id="78">
+        <parents id="55">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="79"/>
+        <children id="56"/>
       </field.core.plugins.drawing.BasicDrawingPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="80">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="57">
         <uid>//plugin_snip</uid>
-        <parents id="81">
+        <parents id="58">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="82"/>
+        <children id="59"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="83">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="60">
         <uid>//plugin_efs</uid>
-        <parents id="84">
+        <parents id="61">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="85"/>
+        <children id="62"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="86">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="63">
         <uid>//plugin_help</uid>
-        <parents id="87">
+        <parents id="64">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="88"/>
+        <children id="65"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="89">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="66">
         <uid>//plugin_tree</uid>
-        <parents id="90">
+        <parents id="67">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="91"/>
+        <children id="68"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="92">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="69">
         <uid>//plugin_fieldgraphics</uid>
-        <parents id="93">
+        <parents id="70">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="94"/>
+        <children id="71"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="95">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="72">
         <uid>//plugin_gstreamer</uid>
-        <parents id="96">
+        <parents id="73">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="97"/>
+        <children id="74"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="98">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="75">
         <uid>//plugin_hierarchy</uid>
-        <parents id="99">
+        <parents id="76">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="100"/>
+        <children id="77"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="101">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="78">
         <uid>//plugin_freehand</uid>
-        <parents id="102">
+        <parents id="79">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="103"/>
+        <children id="80"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="104">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="81">
         <uid>//plugin_freehand</uid>
-        <parents id="105">
+        <parents id="82">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="106"/>
+        <children id="83"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="107">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="84">
         <uid>//plugin_jsrscripting</uid>
-        <parents id="108">
+        <parents id="85">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="109"/>
+        <children id="86"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="110">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="87">
         <uid>//plugin_max</uid>
-        <parents id="111">
+        <parents id="88">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="112"/>
+        <children id="89"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="113">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="90">
         <uid>//plugin_online</uid>
-        <parents id="114">
+        <parents id="91">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="115"/>
+        <children id="92"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="116">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="93">
         <uid>//plugin_osc</uid>
-        <parents id="117">
+        <parents id="94">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="118"/>
+        <children id="95"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="119">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="96">
         <uid>//plugin_scrubber</uid>
-        <parents id="120">
+        <parents id="97">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="121"/>
+        <children id="98"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="122">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="99">
         <uid>//plugin_syphon</uid>
-        <parents id="123">
+        <parents id="100">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="124"/>
+        <children id="101"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="125">
+      <marc.plugins.topology.TopologyPlugin_-LocalVisualElement id="102">
         <uid>//topology_plugin</uid>
-        <parents id="126">
+        <parents id="103">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="127"/>
+        <children id="104"/>
       </marc.plugins.topology.TopologyPlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="128">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="105">
         <uid>//plugin_typing</uid>
-        <parents id="129">
+        <parents id="106">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="130"/>
+        <children id="107"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
-      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="131">
+      <field.core.plugins.BaseSimplePlugin_-LocalVisualElement id="108">
         <uid>//plugin_wrapintransformplugin</uid>
-        <parents id="132">
+        <parents id="109">
           <field.core.StandardFluidSheet_-RootSheetElement reference="1"/>
         </parents>
-        <children id="133"/>
+        <children id="110"/>
       </field.core.plugins.BaseSimplePlugin_-LocalVisualElement>
     </children>
   </field.core.StandardFluidSheet_-RootSheetElement>
